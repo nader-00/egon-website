@@ -15,14 +15,19 @@ header: no
   <section class="hero row row__wrap">
     <div class="columns">
       <h1 class="hero__header">
-        <span class="hero__header--name">eGo<sup>n</sup></span>
-        <span class="hero__header--text">Open and cross-sectoral planning of transmission and distribution grids</span>
+        <span class="hero__header--name">reGo<sup>n</sup></span>
+        <span class="hero__header--text">Analysis of local and regional energy grids in the context of the integrated European energy system</span>
       </h1>
     </div>
     <div class="hero__left large-7 columns">
       <p class="hero__subheader">
-        Driven by the expansion of renewable generation capacity and the progressing electrification of other energy sectors, the electrical grid increasingly faces new challenges: fluctuating supply of renewable energy and simultaneously a changing demand pattern caused by sector coupling. However, the integration of non-electric sectors such as gas, heat and e-mobility enables more flexibility options. 
-        This project aims to investigate the effects of sector coupling on the electrical grid and the benefits of new flexibility options. Like the previous project <a href="https://openegoproject.wordpress.com" title="open_eGo">open_eGo</a>, this work will follow the open-source and open-data principles.
+        In our project regon^n we transfer our findings of the project egon^n into practice!
+          In the reGo^n project, researchers at the RLI, together with partner organizations, are advancing innovative
+          energy system models and grid planning tools to facilitate their transfer into practical application.
+          This, for example, enhances insights into current topics such as controllable consumption devices under
+          Section 14a of the German Energy Industry Act (EnWG) or the Municipal Heat Planning Act, while also promoting
+          exchange among various stakeholders involved in the energy system transformation. The goal is to develop
+          solutions for the energy transition that contribute to a secure and reliable energy system of the future.
       </p>
       <div class="hero__btn">
         <a href="/tools_data/" class="button hero__cta">See our tools</a>
@@ -101,21 +106,8 @@ Incorporating all grid levels, from transmission grid to low-voltage distributio
         <div class="workshops__item medium-6 columns">
           <div class="workshops__item-text">
             <div class="workshops__item-date">
-              September/October 2020
+              Currently no workshops
             </div>
-            <p>Priorization of research questions, scenarios, assumptions and parameters</p>
-            <p>Find the results in <a href="{{ site.url }}{{ site.baseurl }}/publications/#anchor-presentations" title="Publications">Publications</a></p>
-          </div>
-        </div>
-        <div class="workshops__item medium-6 columns">
-          <div class="workshops__item-text">
-            <div class="workshops__item-date">
-              Final workshop: 2<sup>nd</sup> June 2023
-            </div>
-            <p>In our final workshop we presented our results and introduced our tools and data.</p>
-            <p>The workshop was held on 2<sup>nd</sup> June 2023 at the <a href="https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LVB/lvb_node.html" title="">Schleswig-Holstein’s Representation in Berlin</a></p>
-            <p>Agenda and venue: see <a href="{{ site.url }}{{ site.baseurl }}/presentations/eGon_Abschlussworkshop.pdf" title="program">program</a> (in German). Please note that prior registration is required (free of charge).</p>
-            <p>Find the results in <a href="{{ site.url }}{{ site.baseurl }}/publications/#anchor-presentations" title="Publications">Publications</a></p>
           </div>
         </div>
       </div>
