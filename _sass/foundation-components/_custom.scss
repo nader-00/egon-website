@@ -39,6 +39,17 @@ body {
     padding-left: .5rem;     
 }
 
+#footer-content #subfooter #subfooter-credits {
+    display: flex;
+}
+
+#footer-content #subfooter #subfooter-credits p {
+    font-size: .75rem;
+    line-height: 1rem;
+    color: $primary-color-1;
+    margin-bottom: 0;
+}
+
 #subfooter {
     width: 100%;
     max-width: 62.5rem;
