@@ -17,3 +17,11 @@
 - title: "WebApp"
   url: "https://egon.rl-institut.de"
   side: left
+
+- title: "Use Cases"
+  url: "/use_cases/"
+  side: left
+
+- title: "Network and Contact"
+  url: "/network_contact/"
+  side: left
