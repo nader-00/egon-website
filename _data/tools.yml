@@ -31,3 +31,24 @@
   - link: https://edisgo.readthedocs.io
     name: "Docs"
     icon: noun_Book_3324965.svg
+- name: ding0
+  description: text about din0
+  logo: Toollogo_ding0.png
+  link: https://dingo.readthedocs.io
+  links:
+  - link: https://github.com/openego/ding0
+    name: GitHub
+    icon: GitHub_icon.svg
+  - link: https://dingo.readthedocs.io
+    name: "Docs"
+    icon: noun_Book_3324965.svg
+- name: egon-data
+  description: text about egon data
+  link: https://egon-data.readthedocs.io
+  links:
+  - link: https://github.com/openego/egon-data
+    name: GitHub
+    icon: GitHub_icon.svg
+  - link: https://egon-data.readthedocs.io
+    name: "Docs"
+    icon: noun_Book_3324965.svg
