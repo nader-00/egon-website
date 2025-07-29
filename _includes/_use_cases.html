@@ -1,3 +1,41 @@
-<div>
-    <p>This page is currently under construction. Content will be available soon.</p>
+<div class="use_cases" data-equalizer>
+  <div class="use_cases__text">
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+  </div>
+  {% for uc in site.data._use_cases %}
+    <div class="use_cases__item" data-equalizer-watch>
+      <div class="use_cases__upper--helper"></div>
+      <div class="use_cases__upper">
+        <h2 class="use_cases__name"><a href="{{ uc.url }}">{{ uc.name }}</a></h2>
+      </div>
+      <div class="use_cases__bottom">
+        <p class="use_cases__text">{{ uc.short | markdownify }}</p>
+        <div class="use_cases__link">
+          <a href="{{ uc.url }}">More information</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+    {% for uc in site.data._use_cases %}
+        <section id="{{ uc.id }}">
+        <div class="use_cases row row__wrap">
+            <div class="columns use_cases__heading">
+                <h4>{{ uc.name }}</h4>
+            </div>
+            <div class="row">
+                {{ uc.research_question }}
+            </div>
+            <div class="row">
+            {% assign partner_name = {{uc.partner}} %}
+                  {% assign matched_partner = site.data._partners | where: "name", partner_name | first %}
+
+                  {% if matched_partner %}
+                    <img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_partner.logo }}" alt="{{ matched_partner.name }} Logo" class="partner-logo" />
+                  {% else %}
+                    <p><em>No partner logo found</em></p>
+                  {% endif %}
+            </div>
+        </div>
+        </section>
+    {% endfor %}
 </div>
