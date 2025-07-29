@@ -97,22 +97,6 @@ Incorporating all grid levels, from transmission grid to low-voltage distributio
       {% include _tools.html %}
   </section>
 
-  <section id="anchor-workshops" class="workshops row row__wrap">
-    <div class="columns workshops__header">
-      <h2>Our workshops</h2>
-    </div>
-    <div class="small-12 columns">
-      <div class="workshops__row row">
-        <div class="workshops__item medium-6 columns">
-          <div class="workshops__item-text">
-            <div class="workshops__item-date">
-              Currently no workshops
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section class="funding row row__wrap">
     <div class="columns funding__header">

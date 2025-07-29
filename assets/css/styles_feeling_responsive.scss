@@ -41,12 +41,10 @@ sitemap:
 @import "foundation-components/sub-nav";
 @import "foundation-components/tables";
 @import "foundation-components/thumbs";
-@import "foundation-components/top-bar";
 @import "foundation-components/visibility";
 
 @import "06_typography.scss";
 @import "07_layout.scss";
-@import "foundation-components/grid";
 @import "09_elements.scss";
 
 {% if site.asciidoctor-enabled == true %}
