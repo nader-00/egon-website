@@ -1,0 +1,25 @@
+<div class="columns">
+  <div class="partners-grid">
+    {% for partner in site.data._partners %}
+      <div class="partner__item">
+        <div class="partner__item-upper">
+          <div class="partner__item-name">
+            <h3>{{ partner.name }}</h3>
+          </div>
+          {% if partner.logo %}
+          <div class="partner__item-img">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/{{ partner.logo }}" alt="{{ partner.name }} Logo">
+          </div>
+          {% endif %}
+          <div class="partner__item-contact">
+            <p>Contact: {{ partner.contact }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="team-image">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/contact-team.jpg" alt="image team members" />
+  </div>
+</div>
