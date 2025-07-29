@@ -4,12 +4,12 @@
       <div class="use_cases__item">
         <div class="use_cases__upper--helper"></div>
         <div class="use_cases__upper">
-          <h2 class="use_cases__name"><a href="{{ uc.url }}">{{ uc.name }}</a></h2>
+          <h2 class="use_cases__name"><a href="#{{ uc.id }}">{{ uc.name }}</a></h2>
         </div>
         <div class="use_cases__bottom">
           <p class="use_cases__text">{{ uc.short | markdownify }}</p>
           <div class="use_cases__link">
-            <a href="{{ uc.url }}">More information</a>
+            <a href="#{{ uc.id }}">More information</a>
           </div>
         </div>
       </div>

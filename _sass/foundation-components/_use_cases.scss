@@ -250,3 +250,13 @@ $use_cases-card-margin-desktop: .75rem;
     }
   }
 }
+
+// Target highlighting when navigated to via anchor link
+:target {
+  animation: highlight 2s ease-in-out;
+  
+  @keyframes highlight {
+    0% { background-color: rgba(31, 86, 125, 0.1); }
+    100% { background-color: transparent; }
+  }
+}
