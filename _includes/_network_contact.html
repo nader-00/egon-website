@@ -1,3 +1,24 @@
-<div>
-    <p>This page is currently under construction. Content will be available soon.</p>
+<div class="network-contact">
+    <h2>Network</h2>
+    <div class="network-description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    
+    <h2>Contact</h2>
+    <div class="contact-intro">
+        <p>If you have any questions about the project, feel free to contact the contact persons of the consortium partners:</p>
+    </div>
+    
+    <div class="contact-partners-grid">
+        {% for partner in site.data._partners %}
+        <div class="partner-contact">
+            <h3>{{ partner.name }}</h3>
+            <p>Contact: {{ partner.contact }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div class="contact-image">
+        <img src="/images/contact-team.jpg" alt="image team members" />
+    </div>
 </div>
