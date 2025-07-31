@@ -16,25 +16,33 @@ header: no
     <div class="columns">
       <h1 class="hero__header">
         <span class="hero__header--name">reGo<sup>n</sup></span>
-        <span class="hero__header--text">Analysis of local and regional energy grids in the context of the integrated European energy system</span>
+        <span class="hero__header--text">Analysis of local and regional energy grids in the context of the integrated 
+European energy system</span>
       </h1>
     </div>
     <div class="hero__left large-7 columns">
       <p class="hero__subheader">
-        In our project regon^n we transfer our findings of the project egon^n into practice!
-          In the reGo^n project, researchers at the RLI, together with partner organizations, are advancing innovative
-          energy system models and grid planning tools to facilitate their transfer into practical application.
-          This, for example, enhances insights into current topics such as controllable consumption devices under
-          Section 14a of the German Energy Industry Act (EnWG) or the Municipal Heat Planning Act, while also promoting
-          exchange among various stakeholders involved in the energy system transformation. The goal is to develop
-          solutions for the energy transition that contribute to a secure and reliable energy system of the future.
+        As renewable generation capacity expands and more energy sectors become electrified, the electrical grid is 
+        facing new challenges. Fluctuating renewable energy supply and shifting demand patterns caused by sector coupling are 
+        changing the way the grid operates. At the same time, integrating non-electric sectors like gas, heat, and e-mobility 
+        opens up new opportunities for flexibility.
+        
+        Stakeholders like grid operators, policymakers, and plant and asset operators need to better understand both the impact 
+        of sector coupling on the grid and the emerging benefits of flexibility options in order to make informed decisions 
+        throughout the energy transformation. Therefore, we developed a comprehensive suite of open-source and open-data tools 
+        for modeling and planning electrical grids across all grid levels through the projects eGo<sup>n</sup> and open_eGo.
+        
+        This project focuses on bringing those developments into real-world practice. In collaboration with a range of industry 
+        partners, we’re applying our software to five different use cases and actively fostering exchange between stakeholders 
+        within our network.
       </p>
-      <div class="hero__btn">
-        <a href="/tools_data/" class="button hero__cta">See our tools</a>
-      </div>
+        <div class="hero__btns">
+          <a href="/use_cases/" class="button hero__cta">SEE OUR USE CASES</a>
+          <a href="/tools_data/" class="button hero__cta">SEE OUR TOOLS</a>
+        </div>
     </div>
     <div class="hero__right large-5 columns hero__img">
-      <img src="images/HP_hero_img_v3_for_web.svg" alt="Gas, heat and e-mobility are coupled on the electrical grid. Data come from the OpenEnergyPlatform">
+      <img src="{{ site.url }}/images/regon_logo_noring_transbg.svg" alt="rego^n logo">
     </div>
   </section>
 
@@ -46,14 +54,18 @@ header: no
       <div class="tasks__row row">
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            <h3 class="tasks__item-title">Sector Coupling</h3>
-            We want to identify the opportunities and potentials, but also challenges of progressing sector coupling. We also want to optimize the modelled energy system with regard to the overall costs.
-          </div>
+            <h3 class="tasks__item-title">Advancing Our Tools</h3>
+           We continue to refine our tools by further integrating flexibility options and emerging electrical demands. 
+            Our focus is on modeling the physical interactions between different grid levels, as well as the 
+            coordination between transmission system operators (TSOs) and distribution system operators (DSOs).
+        </div>
         </div>
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            <h3 class="tasks__item-title">Planning Tool</h3>
-            In eGo<sup>n</sup>, we will expand the grid planning tool eGo following the established open-source principles. We will connect the electrical grid with additional sectors and integrate more electrical flexibilities.
+            <h3 class="tasks__item-title">Refining Our Tools in Practice</h3>
+            We improve the usability of our tools by both adapting them to the specific needs of five different use 
+            cases, such as cross-level flexibility utilization and operational strategies in the medium- and low-voltage grids, 
+            and applying them to analyze these cases in detail.
           </div>
         </div>
       </div>
@@ -62,39 +74,43 @@ header: no
       <div class="tasks__row row">
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-          <h3 class="tasks__item-title">Modeling and Complexity</h3>
-            There is a conflict between complexity of modeling and accuracy of calculation. Therefore, we will further develop, examine and apply approaches for an adequate reduction of complexity.
-          </div>
+          <h3 class="tasks__item-title">Broadening Applications and Building Networks</h3>
+            In addition to our five use cases, we identify further potential applications for our tools and actively 
+            promote their use. To support this, we are building a <a href="/network_contact/" target="_blank">network</a> 
+            of stakeholders involved in the energy transition, including grid operators, utilities, and other relevant actors.
+        </div>
         </div>
         <div class="tasks__item medium-6 columns">
           <div class="tasks__item-text">
-            <h3 class="tasks__item-title">Open Data / Open Source</h3>
-            We will follow open-source and open-data principles by exclusively using input data which is freely available and publish own results under open-source and open-data licenses. 
-          </div>
+            <h3 class="tasks__item-title">Simplifying Access to Our Results</h3>
+            We aim to make our project results easily accessible. This includes both the tools and the resulting data. 
+            To achieve this, we create tutorials and test them in collaboration with our industry partners. 
+            In addition, we are updating the <a href="https://egon.rl-institut.de/de/" target="_blank">Webapp</a> 
+            developed in our previous project eGo<sup>n</sup> to reflect the latest developments.
+        </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="openego row row__wrap">
-    <div class="columns openego__img">
-      <img src="images/open_ego_logo.jpg" alt="Logo open_ego">
+<section class="previous-projects row row__wrap">
+    <div class="columns previous-projects__header">
+      <h2>Previous Projects</h2>
     </div>
-    <div class="columns openego__text">
-      <p>Our previous research project open_eGo with its resulting grid planning tool eGo provides the basis for the current project eGo<sup>n</sup>.  
-Incorporating all grid levels, from transmission grid to low-voltage distribution grids, this tool can be used to investigate grid expansion scenarios considering alternative flexibility options such as storages and redispatch. Just like eGo<sup>n</sup>, open_eGo was carried out following the open source and open data principles.
-      </p>
-      <div class="openego__btn">
-        <a href="https://openegoproject.wordpress.com" class="button">See project</a>
-      </div>
+    <div class="columns previous-projects__text">
+      <p>Our previous projects open_eGo and eGo<sup>n</sup> form the foundation for the current project reGo<sup>n</sup>. 
+        In open_eGo, we developed a grid planning tool that covers all grid levels, from the transmission grid to 
+        low-voltage distribution grids, and enables the analysis of grid expansion scenarios, including flexibility 
+        options such as battery storage and redispatch. In the follow-up project eGo<sup>n</sup>, the toolbox was extended to 
+        include the sectors heat, gas, and e-mobility, making cross-sectoral energy system analysis possible. 
+        The projects were funded under the Funding Initiative "Optimization of Power Supply Systems" and 7th 
+        Energy Research Programme by the German Federal Ministry for Economic Affairs and Energy and the 
+        German Federal Ministry for Economic Affairs and Climate Action, respectively.</p>
     </div>
-  </section>
-
-  <section class="tools row row__wrap">
-    <div class="columns tools__header">
-      <h2>Our tools</h2>
+    <div class="hero__btns">
+      <a href="/partners/" class="button hero__cta">SEE OUR (PREVIOUS) PARTNERS</a>
+      <a href="https://openegoproject.wordpress.com" class="button">DETAILS ON open_eGo</a>
     </div>
-      {% include _tools.html %}
   </section>
 
 
@@ -103,11 +119,13 @@ Incorporating all grid levels, from transmission grid to low-voltage distributio
       <h2>Funding</h2>
     </div>
     <div class="columns funding__text">
-      <p>This research project (FKZ: 03EI1002) receives funding within the <a href="https://www.energieforschung.de/energieforschungspolitik/energieforschungsprogramm" title="">7<sup>th</sup> Energy Research Programme</a> by the German Federal Ministry for Economic Affairs and Climate Action from December 2019 until March 2023</p>
+      <p>This research project (FKZ: 03EI1093C) receives funding by the German Federal Ministry for Economic Affaird 
+        and Energy from 8th January until December 2027</p>
     </div>
     <div class="columns funding__logo">
-      <a href="https://www.bmwi.de/" title="Zur BMWI Website">
-        <img src="images/BMWK.png" alt="Promoted by the Federal Ministry for Economic Affairs and Climate Action">
+      <a href="https://www.bundeswirtschaftsministerium.de" title="Zur BMWE Website">
+        <img src="images/BMWE.png" alt="Promoted by the Federal Ministry for Economic Affaird 
+        and Energy">
       </a>
     </div>
   </section>

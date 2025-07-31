@@ -2,12 +2,12 @@
 #   url: "/news/"
 #   side: left
 
-- title: "Tools & Data"
-  url: "/tools_data/"
+- title: "Use Cases"
+  url: "/use_cases/"
   side: left
 
-- title: "Publications"
-  url: "/publications/"
+- title: "Tools & Data"
+  url: "/tools_data/"
   side: left
 
 - title: "Partners"
@@ -16,10 +16,6 @@
 
 - title: "WebApp"
   url: "https://egon.rl-institut.de"
-  side: left
-
-- title: "Use Cases"
-  url: "/use_cases/"
   side: left
 
 - title: "Network and Contact"
