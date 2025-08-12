@@ -26,19 +26,39 @@ header: no
       <div class="columns" id="{{ uc.id }}">
         <div class="use-cases__detail">
           <div class="use-cases__detail-heading">
-            <h3>{{ uc.name }}</h3>
+            <h3>{{ uc.name }} - {{ uc.title }}</h3>
           </div>
-          <div class="use-cases__detail-content">
-            {{ uc.research_question }}
+          <div class="use-cases__description-content">
+            {{ uc.description }}
+            
+            {% if uc.research_question %}
+              <h4>Research Questions:</h4>
+              {% if uc.research_question.first %}
+                <ul>
+                {% for question in uc.research_question %}
+                  <li>{{ question }}</li>
+                {% endfor %}
+                </ul>
+              {% else %}
+                <p>{{ uc.research_question }}</p>
+              {% endif %}
+            {% endif %}
           </div>
-          <div class="use-cases__detail-partner">
-            {% assign partner_name = uc.partner %}
-            {% assign matched_partner = site.data._partners | where: "name", partner_name | first %}
+          <div class="use-cases__detail-partners">
+            {% if uc.industrial_partners %}
+            <h4>Industrial Partners:</h4>
+            {{ uc.industrial_partners }}
+            {% endif %}
+          </div>
+            <h4>Scientific Lead: </h4>
+          <div class="use-cases__detail-lead">
+            {% assign scientific_lead_name = uc.scientific_lead %}
+            {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
 
-            {% if matched_partner %}
-              <img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_partner.logo }}" alt="{{ matched_partner.name }} Logo" class="partner-logo" />
+            {% if matched_lead %}
+              <img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo" class="scientific_lead-logo" />
             {% else %}
-              <p><em>No partner logo found</em></p>
+              <p><em>No scientific lead logo found</em></p>
             {% endif %}
           </div>
         </div>

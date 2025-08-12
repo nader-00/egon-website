@@ -61,8 +61,6 @@ $use_cases-card-margin-desktop: .75rem;
     @media only screen and (min-width: 641px) {
       padding-top: 0;
       padding-bottom: 2rem;
-      box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
-      border-radius: 8px;
     }
     @media only screen and (min-width: 1025px) {
       padding-bottom: 3rem;
@@ -228,27 +226,73 @@ $use_cases-card-margin-desktop: .75rem;
 // Use case detail sections
 .use-cases__detail {
   padding: 2rem 0;
+  
+  // Force all text elements to have the same styling
+  p, li, div {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    font-weight: normal !important;
+    font-family: inherit !important;
+  }
 
   .use-cases__detail-heading h3 {
     color: #1F567D;
-    font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 600;
   }
 
   .use-cases__detail-content {
     margin-bottom: 1.5rem;
+    font-size: 1rem;
     line-height: 1.6;
-  }
 
-  .use-cases__detail-partner {
-    text-align: center;
+    p, li {
+      font-size: 1rem !important;
+      line-height: 1.6 !important;
+      font-weight: normal !important;
+    }
     
-    .partner-logo {
-      max-height: 4rem;
-      margin-top: 1rem;
+    ul {
+      margin-top: 0.5rem;
+      
+      li {
+        font-size: 1rem !important;
+        line-height: 1.6 !important;
+        font-weight: normal !important;
+      }
     }
   }
+  
+  .use-cases__detail-partners {
+    margin-bottom: 1.5rem;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    font-weight: normal !important;
+  }
+
+  .use-cases__detail-lead {
+    text-align: center;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    font-weight: normal !important;
+
+    .scientific_lead-logo {
+      max-width: 20rem;
+      max-height: 8rem;
+      margin-top: 1rem;
+      object-fit: contain;
+      display: block;
+    }
+  }
+}
+
+// Use case icons
+.use_case-icon {
+  max-height: 2rem;
+  max-width: 2rem;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 // Target highlighting when navigated to via anchor link
