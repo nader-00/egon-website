@@ -16,9 +16,6 @@ header: no
   </section>
 
   <section class="use-cases__items row row__wrap">
-    <div class="columns use-cases__items-heading">
-      <h2>Our use cases</h2>
-    </div>
 
     {% include _use_cases.html %}
 
