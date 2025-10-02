@@ -32,17 +32,16 @@ European energy system</span>
         throughout the energy transformation. Therefore, we developed a comprehensive suite of open-source and open-data tools 
         for modeling and planning electrical grids across all grid levels through the projects eGo<sup>n</sup> and open_eGo.
         
-        This project focuses on bringing those developments into real-world practice. In collaboration with a range of industry 
-        partners, we’re applying our software to five different use cases and actively fostering exchange between stakeholders 
-        within our network.
-      </p>
-        <div class="hero__btns">
-          <a href="/use_cases/" class="button hero__cta">SEE OUR USE CASES</a>
-          <a href="/tools_data/" class="button hero__cta">SEE OUR TOOLS</a>
-        </div>
+        This project focuses on bringing those developments into real-world practice. In collaboration with a range of industry
+        partners, we're applying our software to five different use cases and actively fostering exchange between stakeholders
+        within our network.</p>
     </div>
     <div class="hero__right large-5 columns hero__img">
       <img src="{{ site.url }}/images/regon_logo_noring_transbg.svg" alt="rego^n logo">
+    </div>
+    <div class="hero__btns">
+      <a href="/use_cases/" class="button hero__cta">SEE OUR USE CASES</a>
+      <a href="/tools_data/" class="button hero__cta">SEE OUR TOOLS</a>
     </div>
   </section>
 
@@ -107,7 +106,7 @@ European energy system</span>
         Energy Research Programme by the German Federal Ministry for Economic Affairs and Energy and the 
         German Federal Ministry for Economic Affairs and Climate Action, respectively.</p>
     </div>
-    <div class="hero__btns">
+    <div class="previous-projects hero__btns">
       <a href="/partners/" class="button hero__cta">SEE OUR (PREVIOUS) PARTNERS</a>
       <a href="https://openegoproject.wordpress.com" class="button">DETAILS ON open_eGo</a>
     </div>
