@@ -118,12 +118,12 @@ European energy system</span>
       <h2>Funding</h2>
     </div>
     <div class="columns funding__text">
-      <p>This research project (FKZ: 03EI1093C) receives funding by the German Federal Ministry for Economic Affaird 
-        and Energy from 8th January until December 2027</p>
+      <p>This research project (FKZ: 03EI1093C) receives funding by the German Federal Ministry for Economic Affairs 
+        and Energy from 8th January 2025 until December 2027</p>
     </div>
     <div class="columns funding__logo">
       <a href="https://www.bundeswirtschaftsministerium.de" title="Zur BMWE Website">
-        <img src="images/BMWE.png" alt="Promoted by the Federal Ministry for Economic Affaird 
+        <img src="images/BMWE.png" alt="Promoted by the Federal Ministry for Economic Affairs 
         and Energy">
       </a>
     </div>
