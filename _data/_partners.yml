@@ -28,4 +28,9 @@
   description: Reiner Lemoine Institut (RLI) contributes its competence in planning of distribution grids, modeling of synthetic distribution grid topologies, and (geo-)data processing to the project. RLI has a strong focus on the distribution grid part and is responsible for providing charging profiles of battery-electric vehicles, developing sector-coupled distribution planning methods and leads case studies that will be conducted with the developed tools.
   url: https://reiner-lemoine-institut.de/egon/
   contact: email@contact.de
+- name: Technische Hochschule Ulm
+  logo: Partnerlogo_THU.png
+  description: The Smart Grids Research Group (SGFG) at THU’s Institute for Energy Technology and Energy Economics combines expertise in energy informatics, economics, meteorology, and infrastructure. SGFG conducts field tests with operators under real-world conditions and bridges industry practice and academic research. Within reGon, SGFG serves as the interface to SWU-Netze and will study, extend and validate the reGon framwork and eDisGo using real network and meter data; it will also integrate high-resolution meteorology for a regional instance and provide automated routines and interfaces to grid operator comparison tools for benchmarking.
+  url: https://www.thu.de/de/org/iea/smartgrids
+  contact: email@contact.de
   

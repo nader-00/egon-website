@@ -10,65 +10,79 @@ header: no
 
   <section class="tools-data__header row row__wrap">
     <div class="columns">
-      <p class="tools-data__subheading">
-        Several models and applications have been developed in context of the previous <a href="https://rego-n.org/index.html">eGo<sup>n</sup></a> project, resulting in a toolchain. These data and tools provide the basis for reGo<sup>n</sup>. The data and data models were created and processed in different modules named <i>data processing</i> and <i>ding0</i>. Additional external open-source tools such as <i>osmTGmod</i> were applied. Two modular planning tools (<i>eTraGo</i> and <i>eDisGo</i>) focusing on different grid levels were developed. They are combined in the inter-grid-level planning tool eGo to investigate viable grid expansion scenarios. All data sets are open data and available in the open energy database (oedb) as part of the open energy platform &mdash; <a href="https://openenergy-platform.org/">OEP</a>. The grid planning tools access the oedb to retrieve and store data. The codes of the developed tools are open source and available on <a href="https://github.com/openego">GitHub</a>. 
-      </p>
-    </div>
-    <div class="columns tools-data__img">
-      <picture>
-        <source srcset="../images/Toolchain_web_desktop.svg" media="(min-width: 641px)">
-        <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain representing the relationship between the various models and applications">
-      </picture>
+      <div class="tools-data__subheading">
+        <p>Several open-source tools have been developed in the context of the open-eGo and eGon projects, forming a coherent 
+        toolchain that now serves as the foundation for reGon.</p>
+        <p>Our energy system and grid models are built with eGon-data and ding0. For grid analysis and planning, we use the 
+        modular tools eTraGo (transmission grid) and eDisGo (distribution grid). These can be applied independently or combined 
+        within the inter-grid-level planning tool eGo, which enables the investigation of viable grid expansion scenarios.</p>
+        <p>All input data, models, and results from these tools are published as open data on the Open Energy Platform 
+        <a href="https://openenergy-platform.org/">(OEP)</a>, while the tools themselves are openly available on 
+        <a href="https://github.com/openego">GitHub</a>.</p>
+      </div>
+      <div class="columns tools-data__img">
+          <picture>
+            <source srcset="../images/Toolchain_web_desktop.png" media="(min-width: 641px)">
+            <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain representing the relationship between the various models and applications">
+          </picture>
+      </div>
     </div>
   </section>
 
-  <section class="tools-data__tools row row__wrap">
+  <section class="tools-data__tools row row__wrap tools">
     <div class="columns tools-data__tools-heading">
-      <h2>Our tools</h2>
+      <h2>Our Tools</h2>
     </div>
     <div class="columns tools-data__tools-text">
       <p>
       Within open_eGo, we've created a family of three grid planning tools for integrated modeling of transmission and distribution grid level:
     </p>
     </div>
-
     {% include _tools.html %}
-
   </section>
-<div></div>
-  <section class="tools-data__oep row row__wrap">
-    <div class="columns medium-3 tools-data__oep-logo">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/webapp.png" alt="eGon WebApp">
+
+  <section class="tools-data__tools row row__wrap data">
+    <div class="columns tools-data__tools-heading">
+      <h2>Our Data</h2>
     </div>
-    <div class="columns medium-9 tools-data__oep-right">
-      <div class="row">
+    <div class="columns tools-data__tools-text">
+      <p>
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    </div>
+  </section>
+
+  <div class="tools-data__oep-container row row__wrap">
+    <section class="tools-data__oep columns medium-6">
+      <div class="tools-data__oep-logo">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/webapp.png" alt="eGon WebApp">
+      </div>
+      <div class="tools-data__oep-content">
         <h2 class="tools-data__oep-heading">WebApp</h2>
         <p class="tools-data__oep-text">
           Explore the data and results in our WebApp
         </p>
         <div class="tools-data__oep-btn">
           <a href="https://egon.rl-institut.de" class="button">Visit WebApp</a>
+        </div>
       </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="tools-data__oep row row__wrap">
-    <div class="columns medium-3 tools-data__oep-logo">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/OEP_logo.svg" alt="OpenEnergyPlatform">
-    </div>
-    <div class="columns medium-9 tools-data__oep-right">
-      <div class="row">
+    <section class="tools-data__oep columns medium-6">
+      <div class="tools-data__oep-logo">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/OEP_logo.svg" alt="OpenEnergyPlatform">
+      </div>
+      <div class="tools-data__oep-content">
         <h2 class="tools-data__oep-heading">Open&shy;Energy&shy;Platform</h2>
         <p class="tools-data__oep-text">
           The OpenEnergyPlatform is an open-data platform used by energy researchers to publish data in an accessible manner.
         </p>
         <div class="tools-data__oep-btn">
           <a href="https://openenergy-platform.org/" class="button">Visit OEP</a>
+        </div>
       </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
 </div>
 

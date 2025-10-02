@@ -58,8 +58,6 @@
     @media only screen and (min-width: 641px) {
       padding-top: 0;
       padding-bottom: 2rem;
-      box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
-      border-radius: 8px;
     }
     @media only screen and (min-width: 1025px) {
       padding-bottom: 3rem;
@@ -69,6 +67,10 @@
   .tools-data__tools-heading {
     text-align: center;
     margin-bottom: .5rem;
+
+    h2 {
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
   }
 
   .tools-data__tools-text p {
@@ -183,33 +185,38 @@
     }
   }
 
-  .tools-data__oep {
+  .tools-data__oep-container {
     margin-top: 7rem;
-    padding: 2rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 
-    @media only screen and (min-width: 641px) {
-      box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
-      border-radius: 8px;
-      padding: 4rem 1rem 3rem;
-    }
-
-    @media only screen and (min-width: 1025px) {
-      padding: 5rem 1rem 4rem;
+    @media only screen and (max-width: 640px) {
+      flex-direction: column;
+      gap: 2rem;
     }
   }
 
-  .tools-data__oep-heading {
-    text-align: center;
-    margin-bottom: .5rem;
-    margin-top: 0;
+  .tools-data__oep {
+    box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
+    border-radius: 8px;
+    padding: 2rem 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
 
     @media only screen and (min-width: 641px) {
-      text-align: left;
+      padding: 3rem 2rem 2.5rem;
+      flex: 1;
+    }
+
+    @media only screen and (min-width: 1025px) {
+      padding: 4rem 2.5rem 3rem;
     }
   }
 
   .tools-data__oep-logo {
     text-align: center;
+    margin-bottom: 1.5rem;
 
     img {
       height: 6rem;
@@ -220,27 +227,26 @@
     }
   }
 
-  .tools-data__oep-text {
-    @media only screen and (max-width: 640px) {
-      text-align: center;
-    }
+  .tools-data__oep-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 
-  .tools-data__oep-right {
-    @media only screen and (min-width: 641px) {
-      padding-left: 2rem;
-    }
-    @media only screen and (min-width: 1025px) {
-      padding-left: 1rem;
-    }
+  .tools-data__oep-heading {
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-top: 0;
+  }
+
+  .tools-data__oep-text {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 1rem;
   }
 
   .tools-data__oep-btn {
     text-align: center;
-
-    @media only screen and (min-width: 641px) {
-      text-align: left;
-    }
   }
 }
 
@@ -256,31 +262,41 @@
         padding-left: 2rem;
         padding-right: 2rem;
       }
+
+      .tools__items .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
   }
 }
 
 .tools-data__tools .tools__items .tools__item {
-
-  @media only screen and (max-width: 640px) {
-    box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
-    border-radius: 8px;
-    padding: 0 1rem 1rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-  }
+  box-shadow: 0px 4px 16px rgba(31,86,125,0.1);
+  border-radius: 8px;
+  padding: 1rem 1rem 1.5rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   @media only screen and (min-width: 641px) {
-    padding-left: .75rem;
-    padding-right: .75rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 1.5rem 1.25rem 2rem;
+    margin: .75rem;
   }
 
   @media only screen and (min-width: 1025px) {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding: 1.5rem 1.5rem 2rem;
+    margin: .75rem;
+    width: calc(33.333% - 1.5rem);
   }
+}
+
+.tools-data__tools .tools__items .tools__item .tools__item-upper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .tools__item-name {
@@ -304,13 +320,13 @@
   }
 }
 
+.tools__item-link {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
 .tools__item-link ul {
   margin-left: 0;
-
-  @media only screen and (min-width: 641px) {
-    position: absolute;
-    bottom: 0;
-  }
 
   img {
     transform: translateY(-3px);
@@ -320,11 +336,6 @@
 
 .tools__item-link-bg {
   display: none;
-
-  @media only screen and (min-width: 641px) {
-    height: 4.5rem;
-    display: block;
-  }
 }
 
 .tools__item-link li {
