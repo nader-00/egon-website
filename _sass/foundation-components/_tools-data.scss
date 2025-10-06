@@ -53,7 +53,7 @@
   }
 
   .tools-data__tools {
-    padding-top: 4rem;
+    padding-top: 0rem;
 
     @media only screen and (min-width: 641px) {
       padding-top: 0;
@@ -69,121 +69,15 @@
     margin-bottom: .5rem;
 
     h2 {
-      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Innia Sans Italic";
     }
   }
 
   .tools-data__tools-text p {
     @include section-text;
+    font-family: "Innia Sans Italic";
   }
   
-  .tools-data__table {
-    padding-top: 4rem;
-
-    @media only screen and (min-width: 641px) {
-      padding-top: 6rem;
-    }
-
-    @media only screen and (min-width: 1025px) {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding-top: 8rem;
-    }
-  }
-
-  .tools-data__table-heading {
-    text-align: center;
-    margin-bottom: .5rem;
-
-    @media only screen and (min-width: 641px) {
-      margin-bottom: .5rem;
-    }
-  }
-
-  .tools-data__table-text {
-    @include section-text;
-  }
-
-  .tools-data__table-text p {
-    text-align: center;
-
-    @media only screen and (min-width: 641px) {
-      padding-left: 2rem;
-      padding-right: 2rem;
-      padding-bottom: .5rem;
-    }
-
-    @media only screen and (min-width: 1025px) {
-      padding-top: 0;
-    }
-  }
-
-  .tools-data__table-content {
-    overflow-x: auto;
-    margin-bottom: 4rem;
-
-    @media only screen and (min-width: 641px) {
-      margin-bottom: 8rem;
-    }
-
-    @media only screen and (min-width: 1025px) {
-      margin-bottom: 10rem;
-    }
-  }
-
-  .tools-data__table-content table {
-    border-collapse: separate !important;
-    border-radius: 8px;
-    border: solid 1px #f2f2f2;
-
-    thead tr th, thead tr th {
-      color: #545454;
-    }
-
-    tr:nth-of-type(even) {
-      background-color: #f9f9f9;
-    }
-
-    thead {
-      background-color: #f7f7f7;
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-    }
-
-    thead tr th {
-      padding: 2rem 1rem;
-      font-size: 1.125rem;
-      font-weight: 400;
-      text-align: center;
-      min-width: 10rem;
-    }
-
-    thead tr th:first-child {
-      border-top-left-radius: 8px;
-    }
-
-    thead tr th:last-child {
-      border-top-right-radius: 8px;
-      min-width: 15rem;
-    }
-
-    tr td {
-      padding: 1.75rem 1rem;
-
-      @media only screen and (min-width: 1025px) {
-        font-size: 1rem;
-        line-height: 1.4rem;
-      }
-
-      ul {
-        @media only screen and (min-width: 1025px) {
-          font-size: 1rem;
-          line-height: 1.4rem;
-        }
-      }
-    }
-  }
 
   .tools-data__oep-container {
     margin-top: 7rem;
@@ -280,6 +174,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  font-family: "Innia Sans Italic";
 
   @media only screen and (min-width: 641px) {
     padding: 1.5rem 1.25rem 2rem;
