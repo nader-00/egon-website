@@ -10,14 +10,14 @@
   url: "/tools_data/"
   side: left
 
-- title: "Partners"
-  url: "/partners/"
+- title: "Consortium"
+  url: "/consortium/"
   side: left
 
 - title: "WebApp"
   url: "https://egon.rl-institut.de"
   side: left
 
-- title: "Network and Contact"
+- title: "Network & Contact"
   url: "/network_contact/"
   side: left
