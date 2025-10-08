@@ -10,7 +10,10 @@ header: no
   <section class="use-cases__header row row__wrap">
     <div class="columns">
       <p class="use-cases__subheading">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        The goal of the reGon project is to bring our tools and datasets into practical application. They are tested in 
+        five use cases carried out in close collaboration with practice partners. Together, we define scenario 
+        assumptions and validate the results, ensuring that our partners’ requirements are directly reflected in the 
+        usability and functionality of the tools.
       </p>
     </div>
   </section>

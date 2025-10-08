@@ -1,4 +1,4 @@
-- name: use case 1
+- name: Use Case 1
   title: integrated use of flexibilities across grid levels
   id: usecase1
   short: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -7,7 +7,7 @@
   industrial_partners: Transmission System Operator, Distribution System Operator
   scientific_lead: DLR Institute of Networked Energy Systems
   icon: mstile-144x144.png
-- name: use case 2
+- name: Use Case 2
   title: integrated use of flexibilities across grid levels
   id: usecase2
   short: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -16,7 +16,7 @@
   industrial_partners: Transmission System Operator, Distribution System Operator
   scientific_lead: University of Flensburg
   icon: mstile-144x144.png
-- name: use case 3
+- name: Use Case 3
   title: integrated use of flexibilities across grid levels
   id: usecase3
   short: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -25,11 +25,11 @@
   industrial_partners: Transmission System Operator, Distribution System Operator
   scientific_lead: Universtity of Applied Sciences Flensburg
   icon: mstile-144x144.png
-- name: use case 4
-  title: Integrated use of flexibilities across grid Levels
+- name: Use Case 4
+  title: Integrated use of flexibilities across grid levels
   id: usecase4
   short: What is the potential for TSOs to use flexibilities inside the distribution grid?
-  description: The goal of the reGon project is to bring our tools and datasets into practical application. They are tested in five use cases carried out in close collaboration with practice partners. Together, we define scenario assumptions and validate the results, ensuring that our partners’ requirements are directly reflected in the usability and functionality of the tools.
+  description: Flexibilities are becoming increasingly important for the efficient operation of electricity grids. A large share of available flexibilities will be located in the distribution grid, such as heat pumps, home batteries, and electric vehicles. Both DSOs and TSOs have a strong interest in making use of these flexibilities to prevent grid congestion and reduce the need for grid expansion. To support system operators in coordinating flexibility use across different grid levels, we provide detailed information on the flexibility potential of various technologies, with high spatial and temporal resolution.
   research_question:
     - "To what extent does a potential flexibility utilization by a DSO create synergy effects in the higher voltage levels?"
     - "What is the useable potential of flexibility in the distribution grid for TSOs after it has been used by DSOs?"
@@ -37,7 +37,7 @@
   industrial_partners: Transmission System Operator, Distribution System Operator
   scientific_lead: Reiner Lemoine Institut
   icon: mstile-144x144.png
-- name: use case 5
+- name: Use Case 5
   title: integrated use of flexibilities across grid levels
   id: usecase5
   short: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
