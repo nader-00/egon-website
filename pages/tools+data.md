@@ -13,19 +13,19 @@ header: no
       <div class="tools-data__subheading">
         <p>Several open-source tools have been developed in the context of the open-eGo and eGon projects, forming a coherent 
         toolchain that now serves as the foundation for reGon.</p>
+        <div class="columns tools-data__img">
+          <picture>
+            <source srcset="../images/Toolchain_web_desktop.png" media="(min-width: 641px)">
+            <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain representing the relationship between the various models and applications">
+          </picture>
+        </div>
         <p>Our energy system and grid models are built with eGon-data and ding0. For grid analysis and planning, we use the 
         modular tools eTraGo (transmission grid) and eDisGo (distribution grid). These can be applied independently or combined 
         within the inter-grid-level planning tool eGo, which enables the investigation of viable grid expansion scenarios.</p>
         <p>All input data, models, and results from these tools are published as open data on the Open Energy Platform 
         <a href="https://openenergy-platform.org/">(OEP)</a>, while the tools themselves are openly available on 
         <a href="https://github.com/openego">GitHub</a>.</p>
-      </div>
-      <div class="columns tools-data__img">
-          <picture>
-            <source srcset="../images/Toolchain_web_desktop.png" media="(min-width: 641px)">
-            <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain representing the relationship between the various models and applications">
-          </picture>
-      </div>
+      </div>     
     </div>
   </section>
 

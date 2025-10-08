@@ -20,14 +20,14 @@
   .tools-data__header {
 
     @media only screen and (min-width: 641px) {
-      padding-bottom: 8rem;
+      padding-bottom: 2rem;
     }
 
     @media only screen and (min-width: 1025px) {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding-bottom: 10rem;
+      padding-bottom: 2rem;
     }
   }
 
@@ -53,7 +53,7 @@
   }
 
   .tools-data__tools {
-    padding-top: 0rem;
+    padding-top: 0;
 
     @media only screen and (min-width: 641px) {
       padding-top: 0;
@@ -69,13 +69,13 @@
     margin-bottom: .5rem;
 
     h2 {
-      font-family: "Innia Sans Italic";
+      color: #1F567D;
+      margin-top: 0;
     }
   }
 
   .tools-data__tools-text p {
     @include section-text;
-    font-family: "Innia Sans Italic";
   }
   
 
@@ -144,13 +144,23 @@
   }
 }
 
+// Data section spacing
+section.tools-data__tools.row.row__wrap.data {
+  @media only screen and (min-width: 641px) {
+    margin-top: 2rem;
+  }
 
+  @media only screen and (min-width: 1025px) {
+    margin-top: 3rem;
+  }
+}
 
 // Tools section
 
 @media only screen and (min-width: 1025px) {
   section.tools-data__tools.row.row__wrap {
       max-width: 82rem;
+      margin-top: 0;
 
       .tools__items {
         padding-left: 2rem;
@@ -174,7 +184,6 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  font-family: "Innia Sans Italic";
 
   @media only screen and (min-width: 641px) {
     padding: 1.5rem 1.25rem 2rem;

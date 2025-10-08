@@ -26,8 +26,7 @@ header: no
 
   <section class="use-cases__details row row__wrap">
     {% for uc in site.data._use_cases %}
-      <div class="columns" id="{{ uc.id }}">
-        <div class="use-cases__detail">
+        <div class="use-cases__detail" id="{{ uc.id }}">
           <div class="use-cases__detail-heading">
             <h3>{{ uc.name }} - {{ uc.title }}</h3>
           </div>
@@ -65,7 +64,6 @@ header: no
             {% endif %}
           </div>
         </div>
-      </div>
     {% endfor %}
   </section>
 
