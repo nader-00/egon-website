@@ -54,13 +54,25 @@ header: no
           </div>
             <h4>Scientific Lead: </h4>
           <div class="use-cases__detail-lead">
-            {% assign scientific_lead_name = uc.scientific_lead %}
-            {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
-
-            {% if matched_lead %}
-              <img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo" class="scientific_lead-logo" />
+            {% if uc.scientific_lead.first %}
+              {% comment %}If scientific_lead is an array, iterate over it{% endcomment %}
+              {% for scientific_lead_name in uc.scientific_lead %}
+                {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
+                {% if matched_lead %}
+                  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo" class="scientific_lead-logo" />
+                {% else %}
+                  <p><em>No scientific lead logo found for {{ scientific_lead_name }}</em></p>
+                {% endif %}
+              {% endfor %}
             {% else %}
-              <p><em>No scientific lead logo found</em></p>
+              {% comment %}If scientific_lead is a string, handle as before{% endcomment %}
+              {% assign scientific_lead_name = uc.scientific_lead %}
+              {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
+              {% if matched_lead %}
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo" class="scientific_lead-logo" />
+              {% else %}
+                <p><em>No scientific lead logo found for {{ scientific_lead_name }}</em></p>
+              {% endif %}
             {% endif %}
           </div>
         </div>

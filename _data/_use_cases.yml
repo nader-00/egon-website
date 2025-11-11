@@ -1,20 +1,32 @@
 - name: Use Case 1
-  title: Integrated use of flexibilities across grid levels
+  title: Regional planning
   id: usecase1
   short: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  description: Flexibilities are becoming increasingly important for the efficient operation of electricity grids. A large share of available flexibilities will be located in the distribution grid, such as heat pumps, home batteries, and electric vehicles. Both DSOs and TSOs have a strong interest in making use of these flexibilities to prevent grid congestion and reduce the need for grid expansion. To support system operators in coordinating flexibility use across different grid levels, we provide detailed information on the flexibility potential of various technologies, with high spatial and temporal resolution.
-  research_question: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  industrial_partners: Transmission System Operator, Distribution System Operator
-  scientific_lead: DLR Institute of Networked Energy Systems
+  description: The ongoing transformation of the energy system is leading to a diversification of stakeholders. This can be partly explain due to the shift from centralized large scale fossil fuel power plants, owned by large enterprises, to decentralized renewable energy sources, owned by a variety of individuals depending on its scale. Stakeholders at the municipal and district levels play an increasingly important role in the current transformation's success. Therefore, sound knowledge of possible future developments in the regional energy system and its interactions with the supra-regional energy system is of utmost importance for forward-looking regional planning. Furthermore, the effects of transitioning to a 100 % renewable energy supply in the electricity, heating, and transportation sectors pose challenges for all regions in Germany.  Due to structural differences between the regions regional energy demand and generation patterns vary, which lead to different requirements for the respective regional transformation. This use case aims to enable local stakeholders to identify suitable transformation paths for their region and derive recommendations for a successful transformation. Additionally it aims to identify and utilize synergies between districts with different structures.
+  research_question:
+    - "How is local demand for electricity (and hydrogen) developing?"
+    - "What costs and expansion requirements for grids and storage facilities will this lead to?"
+    - "How will large-scale consumers (e.g. data centers, decarbonization plants) influence costs and expansion requirements?"
+    - "How can flexibilization of new consumers efficiently reduce costs and expansion requirements?"
+  industrial_partners: different county administrations
+  scientific_lead:
+    - Universtity of Applied Sciences Flensburg
+    - University of Flensburg
   icon: mstile-144x144.png
 - name: Use Case 2
-  title: Integrated use of flexibilities across grid levels
+  title: Electricity and heating transition
   id: usecase2
   short: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-  description: Flexibilities are becoming increasingly important for the efficient operation of electricity grids. A large share of available flexibilities will be located in the distribution grid, such as heat pumps, home batteries, and electric vehicles. Both DSOs and TSOs have a strong interest in making use of these flexibilities to prevent grid congestion and reduce the need for grid expansion. To support system operators in coordinating flexibility use across different grid levels, we provide detailed information on the flexibility potential of various technologies, with high spatial and temporal resolution.
-  research_question: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-  industrial_partners: Transmission System Operator, Distribution System Operator
-  scientific_lead: University of Flensburg
+  description: Decarbonizing the heat supply presents multiple challenges for municipal energy suppliers. Heating grids require a climate-neutral central energy supply . Decentralized heat supply using private heat pumps creates new requirements for the electricity grid as new electrical demands and consumption patterns arise, further complicated through decentralized generation (e.g., rooftop PV systems). Additionally, there are requirements for renewable electrical decentralized generation, as well as new requirements due to the growing electrification of the transportation sector. Model-based analyses of local and regional electricity grids through the reGon model are important for holistically evaluating heat supply strategies and their impacts. The model provides a cross-sectoral view of electricity, heat, and gas, making it possible to answer questions about the future interaction of various types of infrastructures. This allows municipal energy suppliers to plan their plants and infrastructures more effectively and identify potential flexibility and requirements. The increasing volume of decentralized energy generation is changing the interaction between distribution and transmission grids and their respective operators. Consequently, considering the overlying and adjacent grid areas has gained significance, especially given the high flexibility potential available in the lower voltage levels. Municipal energy suppliers are knowledgeable about their own grid area but often lack information about overlying and neighboring grid areas. The reGon project aims to address this issue by providing relevant stakeholders with data models and tools to examine their local systems while considering the overlaying system.
+  research_question:
+  - "How is local electricity and heat generation developing?"
+  - "What expansion requirements will arise with future electrified heat and power generation plants on regional and supra-regional power grids?"
+  - "How can flexible use of electricity and heating reduce  expansion requirements?"
+  industrial_partners: municipal energy suppliers
+  scientific_lead:
+    - University of Flensburg
+    - Universtity of Applied Sciences Flensburg
+    - Reiner Lemoine Institut
   icon: mstile-144x144.png
 - name: Use Case 3
   title: Integrated use of flexibilities across grid levels
@@ -32,7 +44,7 @@
   description: Flexibilities are becoming increasingly important for the efficient operation of electricity grids. A large share of available flexibilities will be located in the distribution grid, such as heat pumps, home batteries, and electric vehicles. Both DSOs and TSOs have a strong interest in making use of these flexibilities to prevent grid congestion and reduce the need for grid expansion. To support system operators in coordinating flexibility use across different grid levels, we provide detailed information on the flexibility potential of various technologies, with high spatial and temporal resolution.
   research_question:
     - "To what extent does a potential flexibility utilization by a DSO create synergy effects in the higher voltage levels?"
-    - "What is the useable potential of flexibility in the distribution grid for TSOs after it has been used by DSOs?"
+    - "What is the usable potential of flexibility in the distribution grid for TSOs after it has been used by DSOs?"
     - "What impact does a TSO flexibility usage have on the distribution grid?"
   industrial_partners: Transmission System Operator, Distribution System Operator
   scientific_lead: Reiner Lemoine Institut
