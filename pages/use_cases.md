@@ -10,7 +10,7 @@ header: no
   <section class="use-cases__header row row__wrap">
     <div class="columns">
       <p class="use-cases__subheading">
-        The goal of the reGon project is to bring our tools and datasets into practical application. They are tested in 
+        The goal of the reGo<sup>n</sup> project is to bring our tools and datasets into practical application. They are tested in 
         five use cases carried out in close collaboration with practice partners. Together, we define scenario 
         assumptions and validate the results, ensuring that our partners’ requirements are directly reflected in the 
         usability and functionality of the tools.

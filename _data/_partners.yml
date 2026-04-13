@@ -36,7 +36,7 @@
   project: open_eGo, eGo<sup>n</sup>, reGo<sup>n</sup>
 - name: Technische Hochschule Ulm
   logo: Partnerlogo_THU.png
-  description: The Smart Grids Research Group (SGFG) at THU’s Institute for Energy Technology and Energy Economics combines expertise in energy informatics, economics, meteorology, and infrastructure. SGFG conducts field tests with operators under real-world conditions and bridges industry practice and academic research. Within reGon, SGFG serves as the interface to SWU-Netze and will study, extend and validate the reGon framwork and eDisGo using real network and meter data; it will also integrate high-resolution meteorology for a regional instance and provide automated routines and interfaces to grid operator comparison tools for benchmarking.
+  description: The Smart Grids Research Group (SGFG) at THU’s Institute for Energy Technology and Energy Economics combines expertise in energy informatics, economics, meteorology, and infrastructure. SGFG conducts field tests with operators under real-world conditions and bridges industry practice and academic research. Within reGo<sup>n</sup>, SGFG serves as the interface to SWU-Netze and will study, extend and validate the reGo<sup>n</sup> framwork and eDisGo using real network and meter data; it will also integrate high-resolution meteorology for a regional instance and provide automated routines and interfaces to grid operator comparison tools for benchmarking.
   url: https://www.thu.de/de/org/iea/smartgrids
   contact: email@contact.de
   project: reGo<sup>n</sup>

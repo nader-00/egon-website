@@ -42,8 +42,8 @@
   - link: https://dingo.readthedocs.io
     name: "Docs"
     icon: noun_Book_3324965.svg
-- name: egon-data
-  description: text about egon data
+- name: eGo<sup>n</sup>-data
+  description: text about eGo<sup>n</sup> data
   link: https://egon-data.readthedocs.io
   links:
   - link: https://github.com/openego/egon-data

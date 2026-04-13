@@ -11,8 +11,8 @@ header: no
   <section class="tools-data__header row row__wrap">
     <div class="columns">
       <div class="tools-data__subheading">
-        <p>Several open-source tools have been developed in the context of the open-eGo and eGon projects, forming a 
-coherent toolchain that now serves as the foundation for reGon.</p>
+        <p>Several open-source tools have been developed in the context of the open-eGo and eGo<sup>n</sup> projects, forming a 
+coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
         <div class="columns tools-data__img">
           <picture>
             <source srcset="../images/Toolchain_web_desktop.png" media="(min-width: 641px)">
@@ -20,7 +20,7 @@ coherent toolchain that now serves as the foundation for reGon.</p>
                 various models and applications">
           </picture>
         </div>
-        <p>Our energy system and grid models are built with eGon-data and ding0. For grid analysis and planning, we use 
+        <p>Our energy system and grid models are built with eGo<sup>n</sup>-data and ding0. For grid analysis and planning, we use 
            the modular tools eTraGo (transmission grid) and eDisGo (distribution grid). These can be applied 
            independently or combined within the inter-grid-level planning tool eGo, which enables the investigation 
            of viable grid expansion scenarios.</p>
