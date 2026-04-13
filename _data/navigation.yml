@@ -10,6 +10,10 @@
   url: "/tools_data/"
   side: left
 
+- title: "Publications"
+  url: "/publications/"
+  side: left
+
 - title: "Consortium"
   url: "/consortium/"
   side: left
