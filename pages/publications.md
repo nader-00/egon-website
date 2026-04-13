@@ -15,7 +15,7 @@ header: no
       {% include _papers_reports.html %}
     </div>
     <div class="columns publications__text">
-      You can find our publications from open_eGo <a href="https://openegoproject.wordpress.com/publications/">here</a>.
+      You can find our publications from open_eGo <a href="https://openegoproject.wordpress.com/publications/" target="_blank">here</a>.
     </div>
   </section>
 

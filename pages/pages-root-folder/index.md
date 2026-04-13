@@ -122,7 +122,7 @@ European energy system</span>
         and Energy from January 2025 until December 2027</p>
     </div>
     <div class="columns funding__logo">
-      <a href="https://www.bundeswirtschaftsministerium.de" title="Zur BMWE Website">
+      <a href="https://www.bundeswirtschaftsministerium.de" title="Zur BMWE Website" target="_blank">
         <img src="images/BMWE.svg" alt="Promoted by the Federal Ministry for Economic Affairs 
         and Energy">
       </a>

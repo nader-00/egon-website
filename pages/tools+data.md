@@ -22,12 +22,12 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
         </div>
         <p>Our energy system and grid models are built with eGo<sup>n</sup>-data and ding0. For grid analysis and planning, we use 
            the modular tools eTraGo (transmission grid) and eDisGo (distribution grid). Both are based on 
-           <a href="https://pypsa.org/">PyPSA</a>. These can be applied independently or combined within the 
+           <a href="https://pypsa.org/" target="_blank">PyPSA</a>. These can be applied independently or combined within the 
            inter-grid-level planning tool eGo, which enables the investigation of viable grid expansion scenarios.</p>
         <p>The input data, models, and results from these tools are published as open data on the Open Energy Platform 
-           <a href="https://openenergy-platform.org/">(OEP)</a> and in our <a href="https://egon.rl-institut.de/de/">WebApp</a>, 
+           (<a href="https://openenergy-platform.org/" target="_blank">OEP</a>) and in our <a href="https://egon.rl-institut.de/de/" target="_blank">WebApp</a>, 
            while the tools themselves are openly available on 
-           <a href="https://github.com/openego">GitHub</a>.</p>.
+           <a href="https://github.com/openego" target="_blank">GitHub</a>.</p>.
       </div>     
     </div>
   </section>
@@ -57,7 +57,7 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
           The results from the reGo<sup>n</sup> will be added as the project progresses.
         </p>
         <div class="tools-data__oep-btn">
-          <a href="https://egon.rl-institut.de" class="button">Visit WebApp</a>
+          <a href="https://egon.rl-institut.de" class="button" target="_blank">Visit WebApp</a>
         </div>
       </div>
     </section>
@@ -72,7 +72,7 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
           The OpenEnergyPlatform is an open-data platform used by energy researchers to publish data in an accessible manner.
         </p>
         <div class="tools-data__oep-btn">
-          <a href="https://openenergy-platform.org/" class="button">Visit OEP</a>
+          <a href="https://openenergy-platform.org/" class="button" target="_blank">Visit OEP</a>
         </div>
       </div>
     </section>
