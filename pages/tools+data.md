@@ -21,11 +21,12 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
           </picture>
         </div>
         <p>Our energy system and grid models are built with eGo<sup>n</sup>-data and ding0. For grid analysis and planning, we use 
-           the modular tools eTraGo (transmission grid) and eDisGo (distribution grid). These can be applied 
-           independently or combined within the inter-grid-level planning tool eGo, which enables the investigation 
-           of viable grid expansion scenarios.</p>
-        <p>All input data, models, and results from these tools are published as open data on the Open Energy Platform 
-           <a href="https://openenergy-platform.org/">(OEP)</a>, while the tools themselves are openly available on 
+           the modular tools eTraGo (transmission grid) and eDisGo (distribution grid). Both are based on 
+           <a href="https://pypsa.org/">PyPSA</a>. These can be applied independently or combined within the 
+           inter-grid-level planning tool eGo, which enables the investigation of viable grid expansion scenarios.</p>
+        <p>The input data, models, and results from these tools are published as open data on the Open Energy Platform 
+           <a href="https://openenergy-platform.org/">(OEP)</a> and in our <a href="https://egon.rl-institut.de/de/">WebApp</a>, 
+           while the tools themselves are openly available on 
            <a href="https://github.com/openego">GitHub</a>.</p>.
       </div>     
     </div>
@@ -35,22 +36,12 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
     <div class="columns tools-data__tools-heading">
       <h2>Our Tools</h2>
     </div>
-    <div class="columns tools-data__tools-text">
-      <p>
-      Within open_eGo, we've created a family of three grid planning tools for integrated modeling of transmission and distribution grid level:
-    </p>
-    </div>
     {% include _tools.html %}
   </section>
 
   <section class="tools-data__tools row row__wrap data">
     <div class="columns tools-data__tools-heading">
       <h2>Our Data</h2>
-    </div>
-    <div class="columns tools-data__tools-text">
-      <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
     </div>
   </section>
 
