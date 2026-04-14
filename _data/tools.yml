@@ -44,6 +44,7 @@
     icon: noun_Book_3324965.svg
 - name: eGo<sup>n</sup>-data
   description: Generating an open-data-based energy system model, providing grid analysis tools with data at the right scope, resolution, and format for eGo, eTraGo and eDisGo.
+  logo: egon-data_logo.svg
   link: https://egon-data.readthedocs.io
   links:
   - link: https://github.com/openego/egon-data
