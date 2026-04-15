@@ -46,7 +46,7 @@
   description: Structural imbalances between electricity generation in the north and consumption in the south, combined with insufficient grid expansion, will continue to drive significant redispatch needs. While dedicated assets such as gas and hydrogen power plants or large-scale battery storage can meet these needs, small-scale flexibilities (SSF) from the distribution grid like heat pumps, home batteries, and electric vehicles offer particular potential, as they already exist in large numbers and could reduce the need for new redispatch infrastructure. We analyse the system-wide value of integrating SSF into redispatch, providing spatially and temporally resolved insights into flexibility potential across distribution grids to support both DSOs and TSOs in coordinating flexibility use across grid levels.
   research_question:
     - "What is the impact of SSF in redispatch on the buildout of electrolysers, large-scale battery storage, and power plants etc.?"
-    - "What additional stress and expansion costs arise in distribution grids from SSF participation in redispatch?"
+    - "What additional load and expansion costs arise in distribution grids from SSF participation in redispatch?"
     - "How do SSF in redispatch affect the overall costs of energy system transformation?"
   industrial_partners: Transmission System Operator, Distribution System Operator
   scientific_lead: Reiner Lemoine Institut
