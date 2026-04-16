@@ -53,25 +53,51 @@ header: no
             {% endif %}
           </div>
             <h4>Scientific Lead: </h4>
-          <div class="use-cases__detail-lead">
+          <div class="use-cases__detail-lead partners-grid">
             {% if uc.scientific_lead.first %}
-              {% comment %}If scientific_lead is an array, iterate over it{% endcomment %}
               {% for scientific_lead_name in uc.scientific_lead %}
                 {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
                 {% if matched_lead %}
-                  <a href="{{ matched_lead.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo" class="scientific_lead-logo" /></a>
+                  <div class="partner__item">
+                    <div class="partner__item-upper">
+                      <div class="partner__item-name">
+                        <a href="{{ matched_lead.url }}" target="_blank"><h3>{{ matched_lead.name }}</h3></a>
+                      </div>
+                      {% if matched_lead.logo %}
+                      <div class="partner__item-img">
+                        <a href="{{ matched_lead.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo"></a>
+                      </div>
+                      {% endif %}
+                      <div class="partner__item-contact">
+                        <p>Contact: <a href="mailto:{{ matched_lead.contact }}">{{ matched_lead.contact }}</a></p>
+                      </div>
+                    </div>
+                  </div>
                 {% else %}
-                  <p><em>No scientific lead logo found for {{ scientific_lead_name }}</em></p>
+                  <p><em>No scientific lead found for {{ scientific_lead_name }}</em></p>
                 {% endif %}
               {% endfor %}
             {% else %}
-              {% comment %}If scientific_lead is a string, handle as before{% endcomment %}
               {% assign scientific_lead_name = uc.scientific_lead %}
               {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
               {% if matched_lead %}
-                <a href="{{ matched_lead.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo" class="scientific_lead-logo" /></a>
+                <div class="partner__item">
+                  <div class="partner__item-upper">
+                    <div class="partner__item-name">
+                      <a href="{{ matched_lead.url }}" target="_blank"><h3>{{ matched_lead.name }}</h3></a>
+                    </div>
+                    {% if matched_lead.logo %}
+                    <div class="partner__item-img">
+                      <a href="{{ matched_lead.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo"></a>
+                    </div>
+                    {% endif %}
+                    <div class="partner__item-contact">
+                      <p>Contact: <a href="mailto:{{ matched_lead.contact }}">{{ matched_lead.contact }}</a></p>
+                    </div>
+                  </div>
+                </div>
               {% else %}
-                <p><em>No scientific lead logo found for {{ scientific_lead_name }}</em></p>
+                <p><em>No scientific lead found for {{ scientific_lead_name }}</em></p>
               {% endif %}
             {% endif %}
           </div>
