@@ -48,7 +48,17 @@ header: no
       </p>
     </div>
 
+    <div class="columns network-contact__subheading-section">
+      <h3 class="network-contact__section-label">Scientific Partners</h3>
+    </div>
+
     {% include _contact.html %}
+
+    <div class="columns network-contact__subheading-section">
+      <h3 class="network-contact__section-label">Industrial Partners</h3>
+    </div>
+
+    {% include _industrial_partners.html %}
 
   </section>
 </div>

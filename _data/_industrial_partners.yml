@@ -1,0 +1,9 @@
+- name: stakeholderA
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+- name: stakeholderB
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+- name: stakeholderC
+  logo: stakeholder.png
+  url: https://http.cat/status/401
