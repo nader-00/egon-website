@@ -1,9 +1,52 @@
-- name: stakeholderA
+- name: Kreis Soest
   logo: stakeholder.png
   url: https://http.cat/status/401
-- name: stakeholderB
+  category: Public Administration
+- name: Kreis Schleswig-Flensburg
   logo: stakeholder.png
   url: https://http.cat/status/401
-- name: stakeholderC
+  category: Public Administration
+- name: Stadtwerke Flensburg
   logo: stakeholder.png
   url: https://http.cat/status/401
+  category: Energy Providers (Utilities)
+- name: Berliner Stadtwerke
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Energy Providers (Utilities)
+- name: Stadtwerke Ulm/Neu-Ulm Netze (DSO)
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Network Operators
+- name: 50Hertz Transmission (TSO)
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Network Operators
+- name: LEW Verteilnetz (DSO)
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Network Operators
+- name: GP Joule
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Project Developers
+- name: ARGE Netz
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Project Developers
+- name: ARGE Netz
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Project Developers
+- name: Renewables Grid Initiative
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Interest Groups, Research & Networks
+- name: EKSH (Energy and Climate Protection Schleswig-Holstein)
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Interest Groups, Research & Networks
+- name: efzn (Energy Research Centre of Lower Saxony)
+  logo: stakeholder.png
+  url: https://http.cat/status/401
+  category: Interest Groups, Research & Networks

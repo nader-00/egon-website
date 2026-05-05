@@ -9,7 +9,8 @@
     - "How will large-scale consumers (e.g. data centers, decarbonization plants) influence costs and expansion requirements?"
     - "How can flexibilization of new consumers efficiently reduce costs and expansion requirements?"
   industrial_partners:
-    - stakeholderA
+    - Kreis Soest
+    - Kreis Schleswig-Flensburg
   scientific_lead:
     - Flensburg Universtity of Applied Sciences
     - University of Flensburg
@@ -24,7 +25,9 @@
   - "What expansion requirements will arise with future electrified heat and power generation plants on regional and supra-regional power grids?"
   - "How can flexible use of electricity and heating reduce  expansion requirements?"
   industrial_partners:
-    - stakeholderB
+    - Stadtwerke Flensburg
+    - Berliner Stadtwerke
+    - GP Joule
   scientific_lead:
     - University of Flensburg
     - Flensburg Universtity of Applied Sciences
@@ -39,8 +42,9 @@
   - "How robust are future energy systems under different weather and climate scenarios?"
   - "How do external disturbances such as import restrictions or market price fluctuations affect system operation?"
   industrial_partners:
-    - stakeholderA
-    - stakeholderB
+    - Stadtwerke Ulm/Neu-Ulm Netze (DSO)
+    - 50Hertz Transmission (TSO)
+    - Renewables Grid Initiative
   scientific_lead: DLR Institute of Networked Energy Systems
   icon: mstile-144x144.png
 - name: Use Case 4
@@ -53,7 +57,8 @@
     - "What additional load and expansion costs arise in distribution grids from SSF participation in redispatch?"
     - "How do SSF in redispatch affect the overall costs of energy system transformation?"
   industrial_partners:
-    - stakeholderC
+    - 50Hertz Transmission (TSO)
+    - LEW Verteilnetz (DSO)
   scientific_lead: Reiner Lemoine Institut
   icon: mstile-144x144.png
 - name: Use Case 5
@@ -65,8 +70,6 @@
      - "How can available flexibilities be used to support secure operation in medium- and low-voltage grids?"
      - "To what extent can flexibility use and renewable curtailment reduce future infrastructure expansion needs?"
   industrial_partners:
-    - stakeholderA
-    - stakeholderB
-    - stakeholderC
+    - Stadtwerke Ulm/Neu-Ulm Netze (DSO)
   scientific_lead: University of Magdeburg
   icon: mstile-144x144.png
