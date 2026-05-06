@@ -4,9 +4,7 @@
   </div>
   <div class="columns">
     <p class="contact-form__intro">You can reach us directly via the form below.</p>
-    <form id="contact-form" novalidate>
-      <input type="hidden" name="access_key" value="{{ site.env.WEB3FORMS_ACCESS_KEY }}">
-      <input type="hidden" name="subject" value="New message via reGon website">
+    <form id="contact-form" action="https://www.formpost.eu/f/f73c0c97" method="POST">
       <!-- Honeypot: bots fill this, humans don't -->
       <input type="checkbox" name="botcheck" class="contact-form__honeypot" tabindex="-1" autocomplete="off">
 
@@ -52,6 +50,10 @@
         </button>
         <p class="contact-form__status" id="contact-status" aria-live="polite"></p>
       </div>
+      <p class="privacy-note">
+        By submitting this form, your data will be processed by Formpost.eu to handle your enquiry.
+        For more information, see our <a href="/privacy/">Privacy Policy</a>.
+      </p>
     </form>
   </div>
 </section>
@@ -60,12 +62,10 @@
 (function () {
   var EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
-  var form      = document.getElementById('contact-form');
   var nameEl    = document.getElementById('contact-name');
   var emailEl   = document.getElementById('contact-email');
   var msgEl     = document.getElementById('contact-message');
   var submitBtn = document.getElementById('contact-submit');
-  var statusEl  = document.getElementById('contact-status');
   var emailErr  = document.getElementById('email-error');
 
   function updateSubmitState() {
@@ -88,42 +88,6 @@
 
   [nameEl, emailEl, msgEl].forEach(function (el) {
     el.addEventListener('input', updateSubmitState);
-  });
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending…';
-    statusEl.textContent = '';
-    statusEl.className = 'contact-form__status';
-
-    var data = new FormData(form);
-
-    fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
-      body: data
-    })
-    .then(function (res) { return res.json(); })
-    .then(function (json) {
-      if (json.success) {
-        statusEl.textContent = 'Thank you! Your message has been sent.';
-        statusEl.classList.add('contact-form__status--success');
-        form.reset();
-        emailEl.dataset.touched = '';
-        emailErr.style.display = 'none';
-        emailEl.classList.remove('contact-form__input--error');
-      } else {
-        throw new Error(json.message || 'Submission failed.');
-      }
-    })
-    .catch(function () {
-      statusEl.textContent = 'Something went wrong. Please try again or contact us directly by email.';
-      statusEl.classList.add('contact-form__status--error');
-    })
-    .finally(function () {
-      submitBtn.textContent = 'Send Message';
-      updateSubmitState();
-    });
   });
 })();
 </script>

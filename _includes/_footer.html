@@ -16,6 +16,7 @@
           <div class="columns medium-9 subfooter__links">
             <div id="subfooter-right" class="credits credits--imprint">
               {% for link in site.data.footer_links %}
+                {% unless forloop.first %} | {% endunless %}
                 <a href="{{ link.url }}" target="_blank" class="{{ link.class }}" title="{{ link.title }}">{{ link.title }}</a>
               {% endfor %}
             </div>
