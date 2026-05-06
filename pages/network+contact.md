@@ -39,26 +39,17 @@ header: no
 
   <section class="network-contact__partners row row__wrap">
     <div class="columns network-contact__partners-heading">
-      <h2>Contact</h2>
-    </div>
-
-    <div class="columns network-contact__partners-text">
-      <p>
-        If you have any questions about the project, feel free to contact the contact persons of the consortium partners:
-      </p>
-    </div>
-
-    <div class="columns network-contact__subheading-section">
-      <h3 class="network-contact__section-label">Scientific Partners</h3>
+      <h2>Scientific Partners</h2>
     </div>
 
     {% include _contact.html %}
 
-    <div class="columns network-contact__subheading-section">
-      <h3 class="network-contact__section-label">Industrial Partners</h3>
+    <div class="columns network-contact__partners-heading">
+      <h2>Industrial Partners</h2>
     </div>
 
     {% include _industrial_partners.html %}
 
   </section>
+
 </div>
