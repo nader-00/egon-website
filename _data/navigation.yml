@@ -1,6 +1,13 @@
 # - title: News
 #   url: "/news/"
 #   side: left
+- title: "Network & Contact"
+  url: "/network_contact/"
+  side: left
+
+- title: "Consortium"
+  url: "/consortium/"
+  side: left
 
 - title: "Use Cases"
   url: "/use_cases/"
@@ -14,14 +21,8 @@
   url: "/publications/"
   side: left
 
-- title: "Consortium"
-  url: "/consortium/"
-  side: left
-
 - title: "WebApp"
   url: "https://egon.rl-institut.de"
   side: left
 
-- title: "Network & Contact"
-  url: "/network_contact/"
-  side: left
+
