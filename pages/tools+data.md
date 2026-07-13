@@ -11,7 +11,7 @@ header: no
   <section class="tools-data__header row row__wrap">
     <div class="columns">
       <div class="tools-data__subheading">
-        <p>Several open-source tools have been developed in the context of the open-eGo and eGo<sup>n</sup> projects, forming a 
+        <p>Several open-source tools have been developed in the context of the <a href="https://openegoproject.wordpress.com" title="open_eGo">open-eGo</a> and eGo<sup>n</sup> projects, forming a 
 coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
         <div class="columns tools-data__img">
           <picture>

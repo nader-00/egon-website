@@ -7,7 +7,6 @@ GEM
     coderay (1.1.1)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
-    dotenv (2.8.1)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -37,9 +36,6 @@ GEM
     jekyll-asciidoc (3.0.0)
       asciidoctor (>= 1.5.0)
       jekyll (>= 3.0.0)
-    jekyll-dotenv (0.2.0)
-      dotenv (~> 2.7)
-      jekyll (~> 4)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
@@ -83,7 +79,6 @@ DEPENDENCIES
   coderay (= 1.1.1)
   jekyll
   jekyll-asciidoc
-  jekyll-dotenv
   jekyll-gist
   jekyll-paginate
 

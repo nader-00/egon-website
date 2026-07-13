@@ -1,5 +1,5 @@
 - name: Use Case 1
-  title: Regional planning
+  title: Regional Planning
   id: usecase1
   short: Supporting regional stakeholders in identifying suitable transformation paths
   description: The shift from centralized fossil fuel power plants to decentralized renewable energy sources is diversifying the stakeholder landscape, with municipal and district-level actors playing an increasingly important role. Regional differences in energy demand and generation patterns mean that transformation requirements vary significantly across areas, making sound knowledge of future regional energy system developments essential for forward-looking planning. We provide data models and tools that enable local stakeholders to analyse their regional energy system in the context of the broader supra-regional system, identify suitable transformation paths, and derive concrete planning recommendations.
@@ -11,12 +11,12 @@
   industrial_partners:
     - Kreis Soest
     - Kreis Schleswig-Flensburg
-  scientific_lead:
+  scientific_partners:
     - Flensburg Universtity of Applied Sciences
-    - University of Flensburg
+    - Europa-Universität Flensburg
   icon: mstile-144x144.png
 - name: Use Case 2
-  title: Electricity and heating transition
+  title: Electricity and Heating Transition
   id: usecase2
   short: Enabling municipalities to holistically plan heat supply decarbonisation.
   description: "Decarbonizing heat supply poses significant challenges for municipal energy suppliers: heating grids require climate-neutral central energy sources, while the electrification of heat and transport creates new demands and consumption patterns in distribution grids. At the same time, growing decentralized generation is reshaping the interaction between distribution and transmission grids. Municipal energy suppliers typically have detailed knowledge of their own grid area but lack visibility into overlying and neighbouring systems. Through cross-sectoral modelling of electricity, heat, and gas, we provide municipal stakeholders with the tools to holistically evaluate heat supply strategies, identify flexibility potential, and plan infrastructure with full awareness of the broader system context."
@@ -28,8 +28,8 @@
     - Stadtwerke Flensburg
     - Berliner Stadtwerke
     - GP Joule
-  scientific_lead:
-    - University of Flensburg
+  scientific_partners:
+    - Europa-Universität Flensburg
     - Flensburg Universtity of Applied Sciences
   icon: mstile-144x144.png
 - name: Use Case 3
@@ -45,10 +45,11 @@
     - Stadtwerke Ulm/Neu-Ulm Netze (DSO)
     - 50Hertz Transmission (TSO)
     - Renewables Grid Initiative
-  scientific_lead: DLR Institute of Networked Energy Systems
+  scientific_partners:
+    - DLR Institute of Networked Energy Systems
   icon: mstile-144x144.png
 - name: Use Case 4
-  title: Integrated use of flexibilities across grid levels (Redispatch)
+  title: Integrated Use of Flexibilities Across Grid Levels
   id: usecase4
   short:  Helping grid operators to quantify the value of distribution grid flexibilities for redispatch provision.
   description: Structural imbalances between electricity generation in the north and consumption in the south, combined with insufficient grid expansion, will continue to drive significant redispatch needs. While dedicated assets such as gas and hydrogen power plants or large-scale battery storage can meet these needs, small-scale flexibilities (SSF) from the distribution grid like heat pumps, home batteries, and electric vehicles offer particular potential, as they already exist in large numbers and could reduce the need for new redispatch infrastructure. We analyse the system-wide value of integrating SSF into redispatch, providing spatially and temporally resolved insights into flexibility potential across distribution grids to support both DSOs and TSOs in coordinating flexibility use across grid levels.
@@ -59,17 +60,21 @@
   industrial_partners:
     - 50Hertz Transmission (TSO)
     - LEW Verteilnetz (DSO)
-  scientific_lead: Reiner Lemoine Institut
+  scientific_partners:
+    - Reiner Lemoine Institut
   icon: mstile-144x144.png
 - name: Use Case 5
-  title: Integrated use of flexibilities across grid levels
+  title: Operating concepts for future medium- and low-voltage grids
   id: usecase5
   short: Preparing DSOs for secure grid operation and expansion cost reduction.
-  description: The ongoing integration of heat pumps, electric vehicles, battery storage, and distributed renewable generation into medium- and low-voltage grids is creating new operational and planning challenges for DSOs, which will intensify as electrification continues to expand. Ensuring secure grid operation while limiting infrastructure expansion costs requires a clear understanding of how different operational and reinforcement strategies perform under future conditions. We quantify the impact of flexibility-based control and targeted grid reinforcement on system security and total costs, with a particular focus on demand control under §14a EnWG (German Energy Industry Act).
+  description: This use case analyses future operating concepts for medium- and low-voltage distribution grids with high shares of heat pumps, electric vehicles, battery storage, and distributed renewable generation. The focus is on comparing conventional grid reinforcement with control-based and flexibility-oriented operating strategies. Using the SWU/THU test grid area in Senden, Hittistetten as a case study, we assess how different strategies affect grid security, reinforcement needs, operating interventions, and overall costs. The analysed variants include a conventional grid expansion approach, an idealised flexibility-first approach, and a control-oriented scenario that investigates how far grid reinforcement can be deferred through targeted operational measures like §14a EnWG. Rather than assuming that flexibility can fully replace grid expansion, the use case identifies where no measures are required, where operational control is sufficient, and where physical grid reinforcement remains necessary.
   research_question:
-     - "How can available flexibilities be used to support secure operation in medium- and low-voltage grids?"
-     - "To what extent can flexibility use and renewable curtailment reduce future infrastructure expansion needs?"
+     - "How do conventional grid reinforcement, flexibility-oriented operation, and control-based strategies compare in medium- and low-voltage grids?"
+     - "To what extent can operational control and flexibility use reduce or defer future grid reinforcement needs?"
+     - "In which grid areas are no measures, operational control, or physical grid reinforcement required?"
+     - "How do different assumptions on flexibility availability, control intensity, and operating limits affect grid security, costs, and remaining reinforcement needs?"
   industrial_partners:
     - Stadtwerke Ulm/Neu-Ulm Netze (DSO)
-  scientific_lead: University of Magdeburg
+  scientific_partners:
+    - Technische Hochschule Ulm
   icon: mstile-144x144.png

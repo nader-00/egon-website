@@ -130,6 +130,15 @@ body {
     transform: translateY(-2px);
 }
 
+// The vendored top-bar partial floats ul.left items but never floats
+// ul.right itself to the opposite edge - add that here rather than
+// patching the vendored _top-bar.scss.
+@media #{$topbar-media-query} {
+    .top-bar-section .right {
+        float: $opposite-direction;
+    }
+}
+
 // Imprint
 .imprint__wrap {
     padding-left: 1rem;

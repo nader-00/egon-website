@@ -72,11 +72,12 @@ header: no
             </div>
           </div>
           {% endif %}
-            <h4>Scientific Lead: </h4>
-          <div class="use-cases__detail-lead partners-grid">
-            {% if uc.scientific_lead.first %}
-              {% for scientific_lead_name in uc.scientific_lead %}
-                {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
+          {% if uc.scientific_partners %}
+          <div class="use-cases__detail-partners">
+            <h4>Scientific Partners:</h4>
+            <div class="partners-grid">
+              {% for scientific_partner_name in uc.scientific_partners %}
+                {% assign matched_lead = site.data._partners | where: "name", scientific_partner_name | first %}
                 {% if matched_lead %}
                   <div class="partner__item">
                     <div class="partner__item-upper">
@@ -88,39 +89,20 @@ header: no
                         <a href="{{ matched_lead.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo"></a>
                       </div>
                       {% endif %}
+                      {% if matched_lead.contact %}
                       <div class="partner__item-contact">
                         <p>Contact: <a href="mailto:{{ matched_lead.contact }}">{{ matched_lead.contact }}</a></p>
                       </div>
+                      {% endif %}
                     </div>
                   </div>
                 {% else %}
-                  <p><em>No scientific lead found for {{ scientific_lead_name }}</em></p>
+                  <p><em>No scientific partner found for {{ scientific_partner_name }}</em></p>
                 {% endif %}
               {% endfor %}
-            {% else %}
-              {% assign scientific_lead_name = uc.scientific_lead %}
-              {% assign matched_lead = site.data._partners | where: "name", scientific_lead_name | first %}
-              {% if matched_lead %}
-                <div class="partner__item">
-                  <div class="partner__item-upper">
-                    <div class="partner__item-name">
-                      <a href="{{ matched_lead.url }}" target="_blank"><h3>{{ matched_lead.name }}</h3></a>
-                    </div>
-                    {% if matched_lead.logo %}
-                    <div class="partner__item-img">
-                      <a href="{{ matched_lead.url }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ matched_lead.logo }}" alt="{{ matched_lead.name }} Logo"></a>
-                    </div>
-                    {% endif %}
-                    <div class="partner__item-contact">
-                      <p>Contact: <a href="mailto:{{ matched_lead.contact }}">{{ matched_lead.contact }}</a></p>
-                    </div>
-                  </div>
-                </div>
-              {% else %}
-                <p><em>No scientific lead found for {{ scientific_lead_name }}</em></p>
-              {% endif %}
-            {% endif %}
+            </div>
           </div>
+          {% endif %}
         </div>
     {% endfor %}
   </section>
