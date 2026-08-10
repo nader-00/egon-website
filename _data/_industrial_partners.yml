@@ -9,23 +9,23 @@
 - name: Stadtwerke Flensburg
   logo: stakeholder.png
   url: https://http.cat/status/401
-  category: municipal utilities
+  category: Grid operators and Municipal Utilities
 - name: Berliner Stadtwerke
   logo: stakeholder.png
   url: https://http.cat/status/401
-  category: municipal utilities
+  category: Grid operators and Municipal Utilities
 - name: Stadtwerke Ulm/Neu-Ulm Netze (DSO)
   logo: stakeholder.png
   url: https://http.cat/status/401
-  category: municipal utilities
+  category: Grid operators and Municipal Utilities
 - name: 50Hertz Transmission (TSO)
   logo: stakeholder.png
   url: https://http.cat/status/401
-  category: Grid Operators
+  category: Grid operators and Municipal Utilities
 - name: LEW Verteilnetz (DSO)
   logo: stakeholder.png
   url: https://http.cat/status/401
-  category: Grid Operators
+  category: Grid operators and Municipal Utilities
 - name: GP Joule
   logo: stakeholder.png
   url: https://http.cat/status/401

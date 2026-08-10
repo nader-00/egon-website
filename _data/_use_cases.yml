@@ -31,6 +31,7 @@
   scientific_partners:
     - Europa-Universität Flensburg
     - Flensburg Universtity of Applied Sciences
+    - Reiner Lemoine Institut
   icon: mstile-144x144.png
 - name: Use Case 3
   title: Resilience of Future Energy Systems
@@ -47,6 +48,7 @@
     - Renewables Grid Initiative
   scientific_partners:
     - DLR Institute of Networked Energy Systems
+    - Technische Hochschule Ulm
   icon: mstile-144x144.png
 - name: Use Case 4
   title: Integrated Use of Flexibilities Across Grid Levels
@@ -62,6 +64,8 @@
     - LEW Verteilnetz (DSO)
   scientific_partners:
     - Reiner Lemoine Institut
+    - Flensburg Universtity of Applied Sciences
+    - Europa-Universität Flensburg
   icon: mstile-144x144.png
 - name: Use Case 5
   title: Operating concepts for future medium- and low-voltage grids
@@ -77,4 +81,5 @@
     - Stadtwerke Ulm/Neu-Ulm Netze (DSO)
   scientific_partners:
     - Technische Hochschule Ulm
+    - Reiner Lemoine Institut
   icon: mstile-144x144.png
