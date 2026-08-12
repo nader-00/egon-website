@@ -23,6 +23,7 @@ section.row.row__wrap {
 .hero {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .hero h1.hero__header {
@@ -394,7 +395,7 @@ section.row.funding {
 
 @media only screen and (min-width: 641px) {
     section.row.funding {
-        margin-top: 5rem;
+        margin-top: 3rem;
         .funding__text p {
             max-width: 26rem;
             margin-left: auto;
@@ -406,7 +407,7 @@ section.row.funding {
 
 @media only screen and (min-width: 1025px) {
     section.row.funding {
-        margin-top: 8rem;
+        margin-top: 5rem;
     }
 }
 

@@ -5,16 +5,17 @@
   project: open_eGo, eGo<sup>n</sup>, reGo<sup>n</sup>
 - name: Reiner Lemoine Institut
   logo: Partnerlogo_RLI.svg
-  description: Reiner Lemoine Institut (RLI) contributes its competence in planning of distribution grids, modeling of synthetic distribution grid topologies, and (geo-)data processing to the project. RLI has a strong focus on the distribution grid part and is responsible for providing charging profiles of battery-electric vehicles, developing sector-coupled distribution planning methods and leads case studies that will be conducted with the developed tools.
-  url: https://reiner-lemoine-institut.de/egon/
+  description: Reiner Lemoine Institut (RLI) contributes its competence in planning of distribution grids, modeling of synthetic distribution grid topologies, and (geo-)data processing to reGo<sup>n</sup>. In this project RLI leads case studies that will be conducted with the developed tools and is responsible for the development of the sector-coupled distribution planning tool eDisGo.
+  url: https://reiner-lemoine-institut.de/
   project: open_eGo, eGo<sup>n</sup>, reGo<sup>n</sup>
 - name: Europa-Universität Flensburg
   logo: Partnerlogo_EUF.png
   description: The Europa-Universität Flensburg contributes expertise in data-driven energy system development with a focus on the heat sector. It supports the further development of grid calculation tools, the integration of methods across different grid levels, and approaches for reducing model complexity.
+  url: https://www.uni-flensburg.de/
   project: open_eGo, eGo<sup>n</sup>, reGo<sup>n</sup>
 - name: DLR Institute of Networked Energy Systems
   logo: Partnerlogo_DLR.svg
-  description: The DLR Institute of Networked Energy Systems, Department of Energy Systems Analysis, develops open-source tools for cross-sectoral energy systems planning. The institute has a strong expertise in open-source modeling of power and gas grid infrastructures. Among other activities, DLR will provide methods and data for the optimal allocation of power-to-gas plants and techniques for complexity reduction of cross-sectoral energy systems.
+  description:     The DLR Institute of Networked Energy Systems, Department of Energy Systems Analysis, develops open-source tools for cross-sectoral energy systems planning. The institute has a strong expertise in open-source modeling of power and gas grid infrastructures. Among other activities in reGo<sup>n</sup>, DLR will provide methods and data for the optimal allocation of power-to-gas plants and techniques for complexity reduction of cross-sectoral energy systems. 
   url: https://www.dlr.de/ve/desktopdefault.aspx/tabid-12471/21741_read-49802/
   project: open_eGo, eGo<sup>n</sup>, reGo<sup>n</sup>
 - name: Technische Hochschule Ulm
@@ -24,12 +25,12 @@
   project: reGo<sup>n</sup>
 - name: Fraunhofer Institute for Energy Economics and Energy System Technology
   logo: Partnerlogo_IEE.svg
-  description: The Fraunhofer Institute for Energy Economics and Energy System Technology IEE in Kassel does research for the national and international transformation of energy supply systems. The IEE provided data for studies about sector coupling (e.g. time series).
+  description:  
   url: https://www.iee.fraunhofer.de/
   project: eGo<sup>n</sup>
 - name: University of Magdeburg
   logo: Partnerlogo_OvGU.svg
-  description: The research group for theoretical computer science of Otto-von-Guericke-University Magdeburg (OvGU) uses its expertise in software engineering and open-source software development to improve the Open Energy Database and the OpenEnergyPlatform in order to open up new application areas and widen their user community. The OvGU's expertise in efficient artificial intelligence methods will be used to improve the scalability of the eGo tool to adapt to the increased complexity entailed by extending it to multiple sectors.
+  description: 
   url: https://forschung-sachsen-anhalt.de/project/offenes-netzebenen-sektorenuebergreifendes-23206
   project: open_eGo, eGo<sup>n</sup>
 

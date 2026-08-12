@@ -48,7 +48,7 @@ header: no
           </div>
           {% if uc.industrial_partners %}
           <div class="use-cases__detail-partners">
-            <h4>Industrial Partners:</h4>
+            <h4>Practice Partners:</h4>
             <div class="partners-grid">
               {% for industrial_partner_name in uc.industrial_partners %}
                 {% assign matched_partner = site.data._industrial_partners | where: "name", industrial_partner_name | first %}

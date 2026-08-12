@@ -54,7 +54,7 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
         <h2 class="tools-data__oep-heading">WebApp</h2>
         <p class="tools-data__oep-text">
           Our WebApp provides an easy and illustrative access to our results from the project eGo<sup>n</sup>. 
-          The results from the reGo<sup>n</sup> will be added as the project progresses.
+          The results from reGo<sup>n</sup> will be added as the project progresses.
         </p>
         <div class="tools-data__oep-btn">
           <a href="https://egon.rl-institut.de" class="button" target="_blank">Visit WebApp</a>

@@ -22,19 +22,17 @@ European energy system</span>
     </div>
     <div class="hero__left large-7 columns">
       <p class="hero__subheader">
-        As renewable generation capacity expands and more energy sectors become electrified, the electrical grid is 
-        facing new challenges. Fluctuating renewable energy supply and shifting demand patterns caused by sector coupling are 
+        As renewable generation capacity expands and more energy sectors become electrified, the <strong>electrical grid is 
+        facing new challenges</strong>. Fluctuating renewable energy supply and shifting demand patterns caused by sector coupling are 
         changing the way the grid operates. At the same time, integrating non-electric sectors like gas, heat, and e-mobility 
-        opens up new opportunities for flexibility.
-        
-        Stakeholders like grid operators, policymakers, and plant and asset operators need to better understand both the impact 
-        of sector coupling on the grid and the emerging benefits of flexibility options in order to make informed decisions 
-        throughout the energy transformation. Therefore, we developed a comprehensive suite of open-source and open-data tools 
-        for modeling and planning electrical grids across all grid levels through the projects eGo<sup>n</sup> and <a href="https://openegoproject.wordpress.com" title="open_eGo">open_eGo</a>.
-        
-        The project reGon aims to bring those developments into real-world practice. In collaboration with a range of industry
-        partners, we're applying our software to five different use cases and actively fostering exchange between stakeholders
-        within our network.</p>
+        opens up new opportunities for flexibility. <strong>Stakeholders</strong> like grid operators, policymakers, and plant and asset operators need to <strong>better understand</strong> both the impact 
+        of sector coupling on the grid and the emerging benefits of flexibility options in order to <strong>make informed decisions</strong> 
+        throughout the energy transformation.</p>
+
+      <p class="hero__subheader">
+        Therefore, we developed a comprehensive suite of open-source and open-data tools for <strong> modeling and planning electrical grids across all grid levels</strong> through the projects eGo<sup>n</sup> and <a href="https://openegoproject.wordpress.com" title="open_eGo">open_eGo</a>. The project reGon aims to bring those developments into <strong>real-world practice</strong>. In <strong>collaboration with</strong> a range of <strong>practical 
+        partners</strong>, we're applying our software to <strong>five different use cases</strong> and actively <strong>fostering exchange</strong> between stakeholders
+        <strong>within our network</strong>.</p>
     </div>
     <div class="hero__right large-5 columns hero__img">
       <img src="{{ site.url }}/images/regon_logo_noborder_transbg.svg" alt="rego^n logo">
@@ -42,6 +40,7 @@ European energy system</span>
     <div class="hero__btns">
       <a href="/use_cases/" class="button hero__cta">SEE OUR USE CASES</a>
       <a href="/tools_data/" class="button hero__cta">SEE OUR TOOLS</a>
+      <a href="/network_contact/" class="button hero__cta">GET IN TOUCH</a>
     </div>
   </section>
 
