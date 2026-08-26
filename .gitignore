@@ -9,3 +9,5 @@ vendor/
 .idea
 gemfile.bak
 Gemfile.bak
+.env
+.env.*

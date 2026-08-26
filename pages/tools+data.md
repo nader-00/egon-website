@@ -13,13 +13,6 @@ header: no
       <div class="tools-data__subheading">
         <p>Several open-source tools have been developed in the context of the <a href="https://openegoproject.wordpress.com" title="open_eGo">open-eGo</a> and eGo<sup>n</sup> projects, forming a 
 coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
-        <div class="columns tools-data__img">
-          <picture>
-            <source srcset="../images/Toolchain_web_desktop.png" media="(min-width: 641px)">
-            <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain representing the relationship between the 
-                various models and applications">
-          </picture>
-        </div>
         <p>Our energy system and grid models are built with eGo<sup>n</sup>-data and ding0. For grid analysis and planning, we use 
            the modular tools eTraGo (transmission grid) and eDisGo (distribution grid). Both are based on 
            <a href="https://pypsa.org/" target="_blank">PyPSA</a>. These can be applied independently or combined within the 
@@ -28,7 +21,14 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
            (<a href="https://openenergy-platform.org/" target="_blank">OEP</a>) and in our <a href="https://egon.rl-institut.de/de/" target="_blank">WebApp</a>, 
            while the tools themselves are openly available on 
            <a href="https://github.com/openego" target="_blank">GitHub</a>.</p>
-      </div>     
+      </div>
+      <div class="columns tools-data__img">
+        <picture>
+          <source srcset="../images/Toolchain_web_desktop.png" media="(min-width: 641px)">
+          <img srcset="../images/Toolchain_web_mobile.svg" alt="Toolchain representing the relationship between the 
+              various models and applications">
+        </picture>
+      </div>
     </div>
   </section>
 
@@ -39,11 +39,9 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
     {% include _tools.html %}
   </section>
 
-  <section class="tools-data__tools row row__wrap data">
-    <div class="columns tools-data__tools-heading">
-      <h2>Our Data</h2>
-    </div>
-  </section>
+  <div class="columns tools-data__tools-heading tools-data__tools-heading--data">
+    <h2>Our Data</h2>
+  </div>
 
   <div class="tools-data__oep-container row row__wrap">
     <section class="tools-data__oep columns medium-6">

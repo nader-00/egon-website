@@ -14,7 +14,7 @@ Tel: +49 (0)30 1208 434 0<br>
 Email: info(ät)rl-institut.de
 
 <span class="imprint__heading">Geschäftsführerin</span>
-Dr. Kathrin Goldammer
+Prof. Dr. Kathrin Goldammer
 
 <span class="imprint__heading">Registergericht</span>
 Handelsregister Berlin – HRB 124659 B

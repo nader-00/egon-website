@@ -14,7 +14,6 @@
   scientific_partners:
     - Flensburg University of Applied Sciences
     - Europa-Universität Flensburg
-  icon: mstile-144x144.png
 - name: Use Case 2
   title: Electricity and Heating Transition
   id: usecase2
@@ -32,7 +31,6 @@
     - Europa-Universität Flensburg
     - Flensburg University of Applied Sciences
     - Reiner Lemoine Institut
-  icon: mstile-144x144.png
 - name: Use Case 3
   title: Resilience of Future Energy Systems
   id: usecase3
@@ -49,7 +47,6 @@
   scientific_partners:
     - DLR Institute of Networked Energy Systems
     - Technische Hochschule Ulm
-  icon: mstile-144x144.png
 - name: Use Case 4
   title: Integrated Use of Flexibilities Across Grid Levels
   id: usecase4
@@ -66,7 +63,6 @@
     - Reiner Lemoine Institut
     - Flensburg University of Applied Sciences
     - Europa-Universität Flensburg
-  icon: mstile-144x144.png
 - name: Use Case 5
   title: Operating concepts for future medium- and low-voltage grids
   id: usecase5
@@ -82,4 +78,3 @@
   scientific_partners:
     - Technische Hochschule Ulm
     - Reiner Lemoine Institut
-  icon: mstile-144x144.png

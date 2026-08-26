@@ -27,7 +27,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding-bottom: 2rem;
+      padding-bottom: 3rem;
     }
   }
 
@@ -83,7 +83,8 @@
   
 
   .tools-data__oep-container {
-    margin-top: 7rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -91,6 +92,10 @@
     @media only screen and (max-width: 640px) {
       flex-direction: column;
       gap: 2rem;
+    }
+
+    @media only screen and (min-width: 1025px) {
+      margin-bottom: 3rem;
     }
   }
 
@@ -148,7 +153,7 @@
 }
 
 // Data section spacing
-section.tools-data__tools.row.row__wrap.data {
+.tools-data__tools-heading--data {
   @media only screen and (min-width: 641px) {
     margin-top: 2rem;
   }
