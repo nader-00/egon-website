@@ -27,7 +27,7 @@ coherent toolchain that now serves as the foundation for reGo<sup>n</sup>.</p>
         <p>The input data, models, and results from these tools are published as open data on the Open Energy Platform 
            (<a href="https://openenergy-platform.org/" target="_blank">OEP</a>) and in our <a href="https://egon.rl-institut.de/de/" target="_blank">WebApp</a>, 
            while the tools themselves are openly available on 
-           <a href="https://github.com/openego" target="_blank">GitHub</a>.</p>.
+           <a href="https://github.com/openego" target="_blank">GitHub</a>.</p>
       </div>     
     </div>
   </section>

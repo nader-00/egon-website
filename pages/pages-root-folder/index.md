@@ -30,7 +30,7 @@ European energy system</span>
         throughout the energy transformation.</p>
 
       <p class="hero__subheader">
-        Therefore, we developed a comprehensive suite of open-source and open-data tools for <strong> modeling and planning electrical grids across all grid levels</strong> through the projects eGo<sup>n</sup> and <a href="https://openegoproject.wordpress.com" title="open_eGo">open_eGo</a>. The project reGon aims to bring those developments into <strong>real-world practice</strong>. In <strong>collaboration with</strong> a range of <strong>practical 
+        Therefore, we developed a comprehensive suite of open-source and open-data tools for <strong> modeling and planning electrical grids across all grid levels</strong> through the projects eGo<sup>n</sup> and <a href="https://openegoproject.wordpress.com" title="open_eGo">open_eGo</a>. The project reGo<sup>n</sup> aims to bring those developments into <strong>real-world practice</strong>. In <strong>collaboration with</strong> a range of <strong>practical 
         partners</strong>, we're applying our software to <strong>five different use cases</strong> and actively <strong>fostering exchange</strong> between stakeholders
         <strong>within our network</strong>.</p>
     </div>
@@ -82,7 +82,7 @@ European energy system</span>
           <div class="tasks__item-text">
             <h3 class="tasks__item-title">Simplifying Access to Our Results</h3>
             We aim to make our project results easily accessible. This includes both the tools and the resulting data. 
-            To achieve this, we create tutorials and test them in collaboration with our industry partners. 
+            To achieve this, we create tutorials and test them in collaboration with our practice partners. 
             In addition, we are updating the <a href="https://egon.rl-institut.de/de/" target="_blank">Webapp</a> 
             developed in our previous project eGo<sup>n</sup> to reflect the latest developments.
         </div>

@@ -12,7 +12,7 @@
     - Kreis Soest
     - Kreis Schleswig-Flensburg
   scientific_partners:
-    - Flensburg Universtity of Applied Sciences
+    - Flensburg University of Applied Sciences
     - Europa-Universität Flensburg
   icon: mstile-144x144.png
 - name: Use Case 2
@@ -30,7 +30,7 @@
     - GP Joule
   scientific_partners:
     - Europa-Universität Flensburg
-    - Flensburg Universtity of Applied Sciences
+    - Flensburg University of Applied Sciences
     - Reiner Lemoine Institut
   icon: mstile-144x144.png
 - name: Use Case 3
@@ -64,7 +64,7 @@
     - LEW Verteilnetz (DSO)
   scientific_partners:
     - Reiner Lemoine Institut
-    - Flensburg Universtity of Applied Sciences
+    - Flensburg University of Applied Sciences
     - Europa-Universität Flensburg
   icon: mstile-144x144.png
 - name: Use Case 5

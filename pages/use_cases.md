@@ -66,7 +66,7 @@ header: no
                     </div>
                   </div>
                 {% else %}
-                  <p><em>No industrial partner found for {{ industrial_partner_name }}</em></p>
+                  <p><em>No practice partner found for {{ industrial_partner_name }}</em></p>
                 {% endif %}
               {% endfor %}
             </div>

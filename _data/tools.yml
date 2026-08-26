@@ -1,5 +1,5 @@
 - name: eTraGo
-  description: Optimising energy dispatch, asset and grid expansion across Germany's <strong>high and extra-high voltage</strong> levels.
+  description: Optimising energy dispatch, asset and grid expansion, and flexibility use across Germany's <strong>high and extra-high voltage</strong> levels.
   logo: etrago_logo.png
   link: https://etrago.readthedocs.io
   links: 

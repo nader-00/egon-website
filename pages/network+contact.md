@@ -15,7 +15,7 @@ header: no
       <div class="network-contact__subheading">
         <p>The reGo<sup>n</sup> project builds on more than a decade of collaborative research on open, cross-sectoral energy 
            system modelling and grid planning tools. Since early 2025, the project consortium has been continuing and 
-           extending developments initiated in the predecessor projects <a href="https://openegoproject.wordpress.com" title="open_eGo">open_eGo</a> (2015–2018) and eGon (2019–2023), with 
+           extending developments initiated in the predecessor projects <a href="https://openegoproject.wordpress.com" title="open_eGo">open_eGo</a> (2015–2018) and eGo<sup>n</sup> (2019–2023), with 
            the goal of transferring these open data models and optimisation tools into practical applications and 
            strengthening their usability for stakeholders from research, industry, and policy.</p>
         <p>A central element of the project is the continuous exchange with associated partners and the broader 
@@ -31,7 +31,7 @@ header: no
            </p>
         <p>Looking ahead, we plan to further expand cooperation with existing partners and establish new connections 
            with stakeholders involved in the transformation of the energy system. Strengthening this network supports 
-           the long-term applicability of the reGon framework and contributes to a continuous dialogue between research 
+           the long-term applicability of the reGo<sup>n</sup> framework and contributes to a continuous dialogue between research 
            and practice.</p>
       </div>     
     </div>

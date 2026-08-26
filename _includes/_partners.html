@@ -9,7 +9,9 @@
         </div>
       </div>
       <div class="partners__bottom">
-        <p class="partners__text">{{ partner.description | markdownify }}</p>
+        {% if partner.description %}
+          <p class="partners__text">{{ partner.description | markdownify }}</p>
+        {% endif %}
         <p class="partners__projects"><strong>Projects:</strong> {{partner.project}}</p>
         <div class="partners__link">
           <a href="{{ partner.url }}" target="_blank">Visit website</a>
