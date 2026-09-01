@@ -1,5 +1,6 @@
 <div class="partners" data-equalizer>
-  {% for partner in site.data._partners %}
+  {% assign consortium_partners = site.data._partners | where_exp: "p", "p.name != 'Fraunhofer Institute for Energy Economics and Energy System Technology' and p.name != 'University of Magdeburg'" %}
+  {% for partner in consortium_partners %}
     <div class="partners__item" data-equalizer-watch>
       <div class="partners__upper--helper"></div>
       <div class="partners__upper">
