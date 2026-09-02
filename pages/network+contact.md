@@ -20,7 +20,7 @@ header: no
            institutions bring us the planning questions that guide what we develop next.</p>
         <p><strong>Are you working on the transformation of the energy system?</strong></p>
         <p>Whether you plan grids, 
-           model energy systems, shape policy, or simply want to try our tools — we would like to hear from you. 
+           model energy systems, shape policy, or simply want to try our tools, we would like to hear from you. 
            Joining our network means invitations to our workshops, updates on our results, and a direct line to 
            the people building the tools.</p>
       </div>     
