@@ -41,6 +41,7 @@ European energy system</span>
       <a href="/use_cases/" class="button hero__cta">SEE OUR USE CASES</a>
       <a href="/tools_data/" class="button hero__cta">SEE OUR TOOLS</a>
       <a href="/network_contact/" class="button hero__cta">GET IN TOUCH</a>
+      <a href="https://www.linkedin.com/company/ego-open-source-grid-optimisation-tools/" class="button hero__cta hero__cta--linkedin" target="_blank" rel="noopener" title="reGon on LinkedIn"><span class="icon-linkedin" aria-hidden="true"></span> FOLLOW US ON LINKEDIN</a>
     </div>
   </section>
 
@@ -106,7 +107,7 @@ European energy system</span>
         German Federal Ministry for Economic Affairs and Climate Action, respectively.</p>
     </div>
     <div class="previous-projects hero__btns">
-      <a href="/partners/" class="button hero__cta">SEE OUR (PREVIOUS) PARTNERS</a>
+      <a href="/consortium/" class="button hero__cta">SEE OUR (PREVIOUS) PARTNERS</a>
       <a href="https://openegoproject.wordpress.com" class="button">DETAILS ON open_eGo</a>
     </div>
   </section>
@@ -118,7 +119,7 @@ European energy system</span>
     </div>
     <div class="columns funding__text">
       <p>This research project (FKZ: 03EI1093) receives funding by the German Federal Ministry for Economic Affairs 
-        and Energy from January 2025 until December 2027</p>
+        and Energy from January 2025 until December 2027.</p>
     </div>
     <div class="columns funding__logo">
       <a href="https://www.bundeswirtschaftsministerium.de" title="Zur BMWE Website" target="_blank">

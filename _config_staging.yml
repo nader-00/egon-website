@@ -9,9 +9,10 @@
 #
 # Title of your website
 title: 'reGo<sup>n</sup>'
+og_locale: 'en_GB'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'energy Grid optimization of n flexibilities'
+slogan: 'energy Grid optimisation of n flexibilities'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'Open, inter-grid-level and cross-sectoral planning instrument for the optimal use and expansion of the electrical grid and flexibility options in Germany'

@@ -6,63 +6,48 @@ header: no
 ---
 
 
-<span class="imprint__heading">Reiner Lemoine Institut gGmbH</span>
+<span class="imprint__heading">Published by</span>
+This website is operated by Reiner Lemoine Institut gGmbH
+
+<span class="imprint__heading">Managing Directors</span>
+Prof. Dr. Kathrin Goldammer and Dr. Christine Kühnel
+
+<span class="imprint__heading">Postal Address</span>
+Reiner Lemoine Institut gGmbH<br>
 Rudower Chaussee 12<br>
-12489 Berlin
+12489 Berlin<br>
+Germany
 
-Tel: +49 (0)30 1208 434 0<br>
-Email: info(ät)rl-institut.de
+<span class="imprint__heading">Contact</span>
+Phone: +49 (0)30 1208 434 0<br>
+Fax: +49 (0)30 1208 434 99<br>
+Email: info(at)rl-institut.de
 
-<span class="imprint__heading">Geschäftsführerin</span>
-Prof. Dr. Kathrin Goldammer
+<span class="imprint__heading">Commercial Register</span>
+Berlin Commercial Register (Handelsregister Berlin) – HRB 124659 B
 
-<span class="imprint__heading">Registergericht</span>
-Handelsregister Berlin – HRB 124659 B
+<span class="imprint__heading">Tax Number</span>
+27/640/02615
 
-<span class="imprint__heading">Umsatzsteueridentifikationsnummer</span>
+<span class="imprint__heading">VAT Identification Number</span>
 DE274491408
 
-## Haftungsausschluss und Datenschutz
+## Disclaimer
 
-### 1. Haftungsbeschränkung
+### 1. Liability for Content
 
-Die Inhalte des Internetauftritts wurden mit größtmöglicher Sorgfalt und nach bestem Gewissen erstellt. Dennoch übernimmt der Anbieter dieser Webseite keine Gewähr für die Aktualität, Vollständigkeit und Richtigkeit der bereitgestellten Seiten und Inhalte.
+The content of this website has been researched with the greatest care. Nevertheless, the authors accept no responsibility for the topicality, correctness, completeness or quality of the information provided. Liability claims against the authors relating to material or non-material damage caused by the use or non-use of the information provided, or by the use of incorrect or incomplete information, are excluded in principle, unless the authors can be shown to have acted with intent or gross negligence. All offers are subject to change and non-binding. The authors expressly reserve the right to change, supplement or delete parts of the pages or the entire offering, or to suspend publication temporarily or permanently, without separate notice.
 
-Als Diensteanbieter ist der Anbieter dieser Webseite gemäß § 7 Abs. 1 TMG für eigene Inhalte und bereitgestellte Informationen auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich; nach den §§ 8 bis 10 TMG jedoch nicht verpflichtet, die übermittelten oder gespeicherten fremden Informationen zu überwachen. Eine Entfernung oder Sperrung dieser Inhalte erfolgt umgehend ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung. Eine Haftung ist erst ab dem Zeitpunkt der Kenntniserlangung möglich.
+### 2. References and Links
 
-### 2. Externe Links
+In the case of direct or indirect references to external websites ("links") that lie outside the authors' area of responsibility, liability would only arise if the authors had knowledge of the content and it were technically possible and reasonable for them to prevent its use in the event of unlawful content. The authors therefore expressly declare that, at the time the links were set, the linked pages were free of illegal content. The authors have no influence whatsoever on the current and future design or content of the linked pages. They therefore expressly distance themselves from all content of all linked pages that has been changed since the links were set. This statement applies to all links and references set within this website, as well as to third-party entries in guest books, discussion forums and mailing lists set up by the authors. Liability for illegal, incorrect or incomplete content, and in particular for damage arising from the use or non-use of such information, rests solely with the provider of the page referred to, not with the party that merely links to the publication in question.
 
-Die Webseite enthält sog. „externe Links“ (Verlinkungen) zu anderen Webseiten, auf deren Inhalt der Anbieter der Webseite keinen Einfluss hat. Aus diesem Grund kann der Anbieter für diese Inhalte auch keine Gewähr übernehmen.
+### 3. Copyright and Trademark Law
 
-Für die Inhalte und Richtigkeit der bereitgestellten Informationen ist der jeweilige Anbieter der verlinkten Webseite verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Bei Bekanntwerden einer solchen Rechtsverletzung wird der Link umgehend entfernen.
+The authors endeavour to respect the copyright of the graphics, audio documents, video sequences and texts used in all publications, to use graphics, audio documents, video sequences and texts they have created themselves, or to use licence-free graphics, audio documents, video sequences and texts. All brand names and trademarks mentioned on this website and possibly protected by third parties are subject without restriction to the provisions of the applicable trademark law and the property rights of the respective registered owners. The mere mention of a trademark does not imply that it is not protected by third-party rights.
 
-### 3. Urheberrecht/Leistungsschutzrecht
+Unless stated otherwise, the content of this website is published under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International licence (CC BY 4.0)</a> and may be reproduced, adapted and distributed in accordance with its terms. Partner logos are excluded from this licence and may not be used without the consent of the respective owners.
 
-Die auf dieser Webseite veröffentlichten Inhalte, Werke und bereitgestellten Informationen unterliegen dem deutschen Urheberrecht und Leistungsschutzrecht. Jede Art der Vervielfältigung, Bearbeitung, Verbreitung, Einspeicherung und jede Art der Verwertung ist mit Ausnahme der Partnerlogos und unter Einhaltung der Regelungen der <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Namensnennungslizenz 4.0 (CC-BY-4.0)</a> gestattet.
+### 4. Legal Validity of this Disclaimer
 
-### 4. Datenschutz
-
-Durch den Besuch des Internetauftritts können Informationen (Datum, Uhrzeit, aufgerufene Seite) über den Zugriff auf dem Server gespeichert werden. Es werden keine personenbezogenenen (z. B. Name, Anschrift oder E-Mail-Adresse) Daten, gespeichert.
-Sofern personenbezogene Daten erhoben werden, erfolgt dies, sofern möglich, nur mit dem vorherigen Einverständnis des Nutzers der Webseite. Eine Weitergabe der Daten an Dritte findet ohne ausdrückliche Zustimmung des Nutzers nicht statt.
-
-Der Anbieter weist darauf hin, dass die Übertragung von Daten im Internet (z. B. per E-Mail) Sicherheitslücken aufweisen und ein lückenloser Schutz der Daten vor dem Zugriff Dritter nicht gewährleistet werden kann. Der Anbieter übernimmt keine Haftung für die durch solche Sicherheitslücken entstandenen Schäden.
-
-Der Verwendung der Kontaktdaten durch Dritte zur gewerblichen Nutzung wird ausdrücklich widersprochen. Es sei denn, der Anbieter hat zuvor seine schriftliche Einwilligung erteilt.
-
-Der Anbieter behält sich rechtliche Schritte für den Fall der unverlangten Zusendung von Werbeinformationen, z. B. durch Spam-Mails, vor.
-
-<p class="imprint__small">We thank <a href="https://www.mustervorlage.net/" target="_blank">mustervorlage.net</a> for providing a sample disclaimer.</p>
-
-
-
-
-
-
-
-	
-
-	
-
-	
-	 
-
+This disclaimer is to be regarded as part of the website from which you were referred to this page. If parts or individual phrases of this text do not, no longer or not fully comply with the applicable legal situation, the remaining parts of the document remain unaffected in their content and validity.

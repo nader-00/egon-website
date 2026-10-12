@@ -8,10 +8,16 @@ $partner-card-margin-desktop: .75rem;
   flex-wrap: wrap;
   padding-left: 1rem;
   padding-right: 1rem;
+  // Same gap below the page title as the intro text on the other pages
+  margin-top: 2rem;
 
   @media only screen and (min-width: 641px) {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
+  }
+
+  @media only screen and (min-width: 1025px) {
+    margin-top: 4rem;
   }
 
   a {

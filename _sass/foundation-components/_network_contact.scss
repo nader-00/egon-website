@@ -122,6 +122,17 @@
     margin-bottom: 2rem;
   }
 
+  // Optional one-line note directly under a subsection heading
+  .network-contact__subsection-heading:has(+ .network-contact__subsection-subtitle) {
+    margin-bottom: 0.5rem;
+  }
+
+  .network-contact__subsection-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
   .network-contact__image {
     padding-top: 4rem;
 
@@ -169,6 +180,33 @@
 .contact-form__intro {
   text-align: center;
   margin-bottom: 1.5rem;
+}
+
+.contact-form__linkedin {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form__linkedin-btn {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 8px;
+  background-color: #0A66C2;
+  color: #fff !important;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+
+  &:hover,
+  &:focus {
+    background-color: darken(#0A66C2, 10%);
+    color: #fff !important;
+  }
+
+  .icon-linkedin {
+    margin-right: 0.35rem;
+  }
 }
 
 .contact-form__honeypot {

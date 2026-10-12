@@ -1,12 +1,12 @@
 - year: 2023
   events:
     - title: "Final Workshop"
-      description: "on 2nd June 2023 at the Schleswig-Holstein’s Representation in Berlin.<br>Our code & data will be released soon - stay tuned!"
+      description: "on 2nd June 2023 at the Representation of the State of Schleswig-Holstein in Berlin."
       presentations:
         - title: "Einführung in das Forschungsprojekt eGo<sup>n</sup> und die zentralen Ergebnisse"
           author: ""
           file: "2023_eGon_Abschluss-WS_Projekteinfuehrung.pdf"
-        - title: "Session I-A Datenmodell: <i>Ein offenes und sektorenubergreifendes Datenmodell für das deutsche Energiesystem</i>"
+        - title: "Session I-A Datenmodell: <i>Ein offenes und sektorenübergreifendes Datenmodell für das deutsche Energiesystem</i>"
           author: ""
           file: "2023_eGon_Abschluss-WS_Session_I-A_Datenmodell.pdf"
         - title: "Session I-B Komplexitätsexplosion und -reduktion: <i>Umgang mit großen Datenmengen in der Energiesystemmodellierung</i>"
@@ -15,7 +15,7 @@
         - title: "Session II-A Übertragungsnetzplanung: <i>Optimierung von Netz- und Speicherausbau sowie Flexibilitätseinsatz in der Höchst- und Hochspannungsebene</i>"
           author: ""
           file: "2023_eGon_Abschluss-WS_Session_II-A_Uebertragungsnetzplanung.pdf"
-        - title: "Session II-B Verteilnetzplanung: <i>Netz-optimaler Einsatz von Flexibilität unter Berücksichtigung von Anforderungen aus dem übergelagerten Netz</i>"
+        - title: "Session II-B Verteilnetzplanung: <i>Netzoptimaler Einsatz von Flexibilität unter Berücksichtigung von Anforderungen aus dem überlagerten Netz</i>"
           author: ""
           file: "2023_eGon_Abschluss-WS_Session_II-B_Verteilnetzplanung.pdf"
     - title: "11th European Open Energy Modelling Workshop"
@@ -39,7 +39,7 @@
           file: "2021_Poster_FNE_Jahrestreffen.pdf"
 - year: 2020
   events:
-    - title: "Neue Verbraucher und elektrische Flexbilitäten: Potentiale und Herausforderungen im Übertragungs- und Verteilnetz - Online-Workshop der Projekte open_BEA und eGo<sup>n</sup>"
+    - title: "Neue Verbraucher und elektrische Flexibilitäten: Potentiale und Herausforderungen im Übertragungs- und Verteilnetz - Online-Workshop der Projekte open_BEA und eGo<sup>n</sup>"
       presentations:
         - title: "Projektvorstellung eGo<sup>n</sup>" 
           author:  ""
@@ -53,7 +53,7 @@
         - title: "Session B1: Elektrische Flexibilitäten" 
           author:  ""
           file: "2020_open_BEA_eGon_WS_Session-B1-Elektrische-Flexibilitaeten.pdf"
-        - title: "Session B2: Das eGo<sup>n</sup> Modellkonzept"
+        - title: "Session B2: Das eGo<sup>n</sup>-Modellkonzept"
           author:  ""
           file: "2020_open_BEA_eGon_WS_Session-B2-Das_eGo_n_Modellkonzept.pdf"
         - title: "Session C2: Sektorenkopplung in der Stromnetzmodellierung" 
@@ -62,4 +62,4 @@
         - title: "Session D2: Verwertbarkeit der Projektergebnisse " 
           author:  ""
           file: "D2_Verwertbarkeit.pdf"
-      description: "We had a joined workshop with the research project open_BEA. Below you find presentation slides from plenary and breakout sessions. The latter include a wrap-up at the end."
+      description: "We had a joint workshop with the research project open_BEA. Below you find presentation slides from plenary and breakout sessions. The latter include a wrap-up at the end."

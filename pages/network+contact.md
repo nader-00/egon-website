@@ -9,7 +9,6 @@ header: no
 
   <section class="network-contact__header row row__wrap">
     <div class="columns network-contact__partners-heading">
-    <h2>Network</h2>
       <div class="network-contact__subheading">
         <p>reGo<sup>n</sup> builds on more than a decade of collaborative research on open, cross-sectoral energy 
            system modelling and grid planning. Since early 2025 we have been extending the tools developed in 
@@ -23,7 +22,7 @@ header: no
            model energy systems, shape policy, or simply want to try our tools, we would like to hear from you. 
            Joining our network means invitations to our workshops, updates on our results, and a direct line to 
            the people building the tools.</p>
-      </div>     
+      </div>
     </div>
   </section>
 
@@ -35,6 +34,7 @@ header: no
     </div>
 
     <h3 class="network-contact__subsection-heading">Scientific Partners</h3>
+    <p class="network-contact__subsection-subtitle">Across reGo<sup>n</sup> and its predecessor projects open_eGo and eGo<sup>n</sup></p>
     {% include _contact.html %}
 
     <h3 class="network-contact__subsection-heading">Practice Partners</h3>
